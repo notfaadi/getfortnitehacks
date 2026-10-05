@@ -370,6 +370,9 @@ for (const file of files) {
   if (/hreflang="en" href="https:\/\/www\./.test(html)) {
     fail(`${relative(dist, file)}: hreflang must not use www`)
   }
+  if (/getfortnitehacks\.io/i.test(html)) {
+    fail(`${relative(dist, file)}: must not reference getfortnitehacks.io — live site is .org only`)
+  }
 }
 
 const headers = readFileSync(join(root, 'public', '_headers'), 'utf8')

@@ -14,6 +14,15 @@ zone_name = "getfortnitehacks.org"
 pattern = "www.getfortnitehacks.org/*"
 zone_name = "getfortnitehacks.org"
 
+# Optional — only after getfortnitehacks.io is added to Cloudflare (DNS → orange cloud).
+# Worker will 301 all .io traffic to https://getfortnitehacks.org (see workers/site.js).
+# [[routes]]
+# pattern = "getfortnitehacks.io/*"
+# zone_name = "getfortnitehacks.io"
+# [[routes]]
+# pattern = "www.getfortnitehacks.io/*"
+# zone_name = "getfortnitehacks.io"
+
 [assets]
 directory = "./dist"
 binding = "ASSETS"

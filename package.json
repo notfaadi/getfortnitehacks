@@ -2,6 +2,8 @@
   "name": "getfortnitehacks",
   "private": true,
   "version": "1.0.0",
+  "description": "Fortnite Hacks — official site at https://getfortnitehacks.org (not .io)",
+  "homepage": "https://getfortnitehacks.org",
   "type": "module",
   "scripts": {
     "dev": "astro dev --port 5174",
