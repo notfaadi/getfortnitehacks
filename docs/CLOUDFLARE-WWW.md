@@ -6,6 +6,8 @@ The Worker already returns **301 → apex** for `www` (see `workers/site.js`).
 
 ## Steps (about 2 minutes)
 
+After `wrangler deploy`, Cloudflare may auto-add **www** when `custom_domain = true` is set in `wrangler.toml`. If **www** still does not resolve, add DNS manually:
+
 1. Open **Cloudflare** → zone **getfortnitehacks.org** → **DNS** → **Add record**
    - **Type:** `CNAME`
    - **Name:** `www`

@@ -61,7 +61,13 @@ export default {
     const url = new URL(request.url)
     const canonical = toCanonicalSiteUrl(url)
     if (canonical) {
-      return Response.redirect(canonical.toString(), 301)
+      return new Response(null, {
+        status: 301,
+        headers: {
+          Location: canonical.toString(),
+          'Cache-Control': 'public, max-age=86400',
+        },
+      })
     }
 
     const assetResponse = await assetsFetch(env, request, url.pathname + url.search)

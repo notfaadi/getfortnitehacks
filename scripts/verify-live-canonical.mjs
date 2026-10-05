@@ -12,6 +12,10 @@ async function head(url) {
   return { status: res.status, location: res.headers.get('location') }
 }
 
+async function sleep(ms) {
+  await new Promise((resolve) => setTimeout(resolve, ms))
+}
+
 try {
   const apex = await head(APEX)
   if (apex.status !== 200) {
@@ -19,11 +23,20 @@ try {
   }
 
   let www
-  try {
-    www = await head(WWW)
-  } catch (err) {
+  let wwwErr
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {
+      www = await head(WWW)
+      wwwErr = null
+      break
+    } catch (err) {
+      wwwErr = err
+      if (attempt < 5) await sleep(8000)
+    }
+  }
+  if (wwwErr) {
     failures.push(
-      `${WWW} could not be reached (${err.message}). Add www CNAME + Worker custom domain — see docs/CLOUDFLARE-WWW.md`,
+      `${WWW} could not be reached (${wwwErr.message}). Add www CNAME + Worker custom domain — see docs/CLOUDFLARE-WWW.md`,
     )
     process.exit(1)
   }

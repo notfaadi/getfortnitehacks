@@ -11,7 +11,7 @@ npm run build
 npx wrangler deploy
 ```
 
-Cloudflare CI runs `npm run build` then `npx wrangler deploy`.
+GitHub Actions (`.github/workflows/deploy.yml`) runs `npm run build`, `wrangler deploy`, and `npm run verify:live` on every push to `main`. Add repo secrets **`CLOUDFLARE_API_TOKEN`** and **`CLOUDFLARE_ACCOUNT_ID`** (or keep using Cloudflare’s Git integration — one deploy path is enough).
 
 **Live URL:** [https://getfortnitehacks.org](https://getfortnitehacks.org) — the only public domain for this site.
 
