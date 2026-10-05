@@ -46,6 +46,10 @@ for (const file of files) {
   } else descriptions.set(description, page)
 
   if (page !== '404.html') {
+    const canonicalCount = (html.match(/rel="canonical"/g) || []).length
+    if (canonicalCount !== 1) {
+      fail(`${page}: must have exactly one rel=canonical (found ${canonicalCount})`)
+    }
     if (!html.includes(`rel="canonical" href="${canonicalUrl}"`)) {
       fail(`${page}: missing self-referencing canonical ${canonicalUrl}`)
     }

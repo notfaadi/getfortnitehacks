@@ -64,10 +64,9 @@ const preloadOg =
     <meta name="bingbot" content={robots} />
     <meta name="author" content={SITE_NAME} />
     <link rel="canonical" href={url} />
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-    {/* Self-referential hreflang (en + x-default) — required by Seobility / Google */}
-    <link rel="alternate" href={url} hreflang="en" />
-    <link rel="alternate" href={url} hreflang="x-default" />
+    {/* Self-referential hreflang — href must match canonical exactly (Seobility / Google) */}
+    <link rel="alternate" hreflang="en" href={url} />
+    <link rel="alternate" hreflang="x-default" href={url} />
     {/* Legacy crawlers still read image_src for result thumbnails */}
     <link rel="image_src" href={imageUrl} />
 

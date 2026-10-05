@@ -4,18 +4,18 @@ import { blogPath } from './blog-paths'
 export const OFFICIAL_FORTNITE_LINKS = [
   {
     label: 'Fortnite',
-    href: 'https://fortnite.com/',
+    href: 'https://www.fortnite.com/',
     description: 'Official Fortnite game site',
   },
   {
-    label: 'Fortnite on Steam',
-    href: 'https://store.steampowered.com/app/221100/Fortnite/',
-    description: 'Official PC store page and client download',
+    label: 'Epic Games Store',
+    href: 'https://store.epicgames.com/en-US/p/fortnite',
+    description: 'Official Epic Games download and account',
   },
   {
-    label: 'Bohemia Interactive Support',
-    href: 'https://www.bohemia.net/',
-    description: 'Publisher support and account help',
+    label: 'Epic Games Support',
+    href: 'https://www.epicgames.com/help/',
+    description: 'Epic account and launcher help',
   },
 ] as const
 

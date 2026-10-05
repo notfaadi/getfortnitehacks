@@ -14,8 +14,9 @@ import { HeroSearch } from '../components/HeroSearch'
 import { FaqSection } from '../components/FaqSection'
 import { guidePath } from '../data/games'
 import { CheckoutLink } from '../components/CheckoutLink'
+import { SocialShare } from '../components/SocialShare'
 import { HOME_FAQS } from '../data/faqs'
-import { HOME_HEADINGS, PRODUCT_PRICE_USD, SITE_NAME, SITE_PURPOSE } from '../data/site'
+import { HOME_HEADINGS, PRODUCT_PRICE_USD, SEO, SITE_NAME, SITE_PURPOSE } from '../data/site'
 import { BLOGS, blogPath } from '../data/blogs'
 
 const HERO_FEATURES = [
@@ -78,8 +79,8 @@ export function HomePage() {
                 {HOME_HEADINGS.h1}
               </h1>
               <p className="mt-4 max-w-md text-base leading-relaxed text-white/90 sm:text-lg">
-                {HOME_HEADINGS.h2Features} for Fortnite Battle Royale — Easy Anti-Cheat updates
-                included.
+                Undetected Fortnite wallhack, ESP, and aimbot for PC in 2026 —{' '}
+                {HOME_HEADINGS.h2Features.toLowerCase()} with Easy Anti-Cheat maintenance included.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
@@ -225,7 +226,7 @@ export function HomePage() {
                   <p className="mt-2 text-lg font-semibold tracking-tight text-white">{post.title}</p>
                   <p className="mt-2 flex-1 text-sm leading-relaxed text-white/55">{post.excerpt}</p>
                   <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-z-soft transition-colors group-hover:text-white">
-                    Read guide
+                    {post.tag} guide
                     <ArrowRight
                       className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
                       strokeWidth={1.75}
@@ -331,6 +332,12 @@ export function HomePage() {
           moreHref="/faq"
           moreLabel="Full FAQ →"
         />
+
+        <section className="page-x border-t border-z-soft/15 py-8">
+          <div className="mx-auto max-w-6xl">
+            <SocialShare path={SEO.home.path} title={SEO.home.title} />
+          </div>
+        </section>
 
         <SiteFooter currentPath="/" />
       </div>
