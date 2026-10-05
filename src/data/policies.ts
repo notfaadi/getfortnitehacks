@@ -23,7 +23,7 @@ export const POLICY_PAGES: PolicyPageContent[] = [
       'Privacy policy for Fortnite Hacks. How we handle support emails, order data, and checkout for fortnite cheats licenses on fortnitehack.net.',
     h1: 'Privacy Policy',
     intro:
-      'This page explains what we collect when you browse getfortnitehacks.io, buy a Fortnite Hacks license, or contact support — and what we do not collect.',
+      'This page explains what we collect when you browse getfortnitehacks.org, buy a Fortnite Hacks license, or contact support — and what we do not collect.',
     sections: [
       {
         heading: 'What we collect',
@@ -45,8 +45,8 @@ export const POLICY_PAGES: PolicyPageContent[] = [
         heading: 'Cookies and third parties',
         body: [
           'Essential cookies may be set by checkout or CDN providers so payment and delivery work.',
-          'Preview media is hosted on getfortnitehacks.io. Third-party embeds are not used for the main product preview.',
-          'Official Fortnite and Bohemia Interactive links are external. Their privacy policies apply once you leave getfortnitehacks.io.',
+          'Preview media is hosted on getfortnitehacks.org. Third-party embeds are not used for the main product preview.',
+          'Official Fortnite and Bohemia Interactive links are external. Their privacy policies apply once you leave getfortnitehacks.org.',
         ],
       },
       {

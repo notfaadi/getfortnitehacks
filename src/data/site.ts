@@ -1,14 +1,14 @@
 import { FORTNITE_OG } from './images'
 import { PAGE_OG } from './og'
 
-export const SITE_URL = 'https://getfortnitehacks.io'
+export const SITE_URL = 'https://getfortnitehacks.org'
 export const SITE_NAME = 'Fortnite Hacks'
-export const SITE_HOST = 'getfortnitehacks.io'
+export const SITE_HOST = 'getfortnitehacks.org'
 
 /**
  * Sole purpose — used in schema + about copy.
  * Single-product site: Fortnite / Fortnite Battle Royale cheats for PC (worldwide).
- * Canonical host is apex https://getfortnitehacks.io (www 301s to apex in the Worker).
+ * Canonical host is apex https://getfortnitehacks.org (www 301s to apex in the Worker).
  */
 export const SITE_PURPOSE =
   'Buy Fortnite cheats for Fortnite Battle Royale on Windows PC — silent-aim Aimbot, player and loot ESP, wallhack, radar hack and live Easy Anti-Cheat status with instant digital delivery.'

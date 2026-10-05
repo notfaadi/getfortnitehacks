@@ -32,4 +32,4 @@ Allow: /videos/
 Disallow: /404
 Disallow: /404.html
 
-Sitemap: https://getfortnitehacks.io/sitemap.xml
+Sitemap: https://getfortnitehacks.org/sitemap.xml

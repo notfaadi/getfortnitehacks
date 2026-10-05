@@ -1,8 +1,8 @@
 /**
  * Host redirects for legacy Pages Functions (if invoked).
- * Canonical: https://getfortnitehacks.io — 301 all other hosts (www, .org, http).
+ * Canonical: https://getfortnitehacks.org — 301 all other hosts (www, .org, http).
  */
-const CANONICAL_HOST = 'getfortnitehacks.io'
+const CANONICAL_HOST = 'getfortnitehacks.org'
 
 function toCanonicalSiteUrl(url) {
   const host = url.hostname.toLowerCase()

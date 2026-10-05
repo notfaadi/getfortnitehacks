@@ -1,4 +1,4 @@
-# Fortnite Hacks (getfortnitehacks.io)
+# Fortnite Hacks (getfortnitehacks.org)
 
 Static Astro site for Fortnite Battle Royale — aimbot, ESP, wallhack, loot ESP, radar hack — Cloudflare Workers ready.
 

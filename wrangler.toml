@@ -1,5 +1,5 @@
 # Cloudflare Worker + static assets (CI: build then `npx wrangler deploy`).
-# Attach getfortnitehacks.io under Workers → getfortnitehacks → Settings → Domains & Routes.
+# Attach getfortnitehacks.org under Workers → getfortnitehacks → Settings → Domains & Routes.
 # Do not declare [[routes]] here unless the zone is on this Cloudflare account.
 name = "getfortnitehacks"
 main = "workers/site.js"

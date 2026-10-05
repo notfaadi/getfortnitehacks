@@ -9,7 +9,7 @@ export type SupportFaq = {
 }
 
 export const SUPPORT_INTRO =
-  'Support for Fortnite Hacks buyers on getfortnitehacks.io — loader setup, Easy Anti-Cheat status, menu config and delivery help after you purchase Fortnite cheats.'
+  'Support for Fortnite Hacks buyers on getfortnitehacks.org — loader setup, Easy Anti-Cheat status, menu config and delivery help after you purchase Fortnite cheats.'
 
 export const SUPPORT_TOPICS: SupportTopic[] = [
   {
@@ -44,7 +44,7 @@ export const SUPPORT_TOPICS: SupportTopic[] = [
 export const SUPPORT_FAQS: SupportFaq[] = [
   {
     q: 'How do I contact Fortnite Hacks support?',
-    a: 'Open your order on getfortnitehacks.io and use the checkout support channel tied to your purchase. Include a status screenshot (clear to load / Updating) and whether you need load, menu or delivery help.',
+    a: 'Open your order on getfortnitehacks.org and use the checkout support channel tied to your purchase. Include a status screenshot (clear to load / Updating) and whether you need load, menu or delivery help.',
   },
   {
     q: 'The loader will not open — what first?',
@@ -60,6 +60,6 @@ export const SUPPORT_FAQS: SupportFaq[] = [
   },
   {
     q: 'Where is my delivery?',
-    a: 'Delivery is digital after checkout on getfortnitehacks.io. Use only that loader link. Third-party mirrors are unsupported and unsafe.',
+    a: 'Delivery is digital after checkout on getfortnitehacks.org. Use only that loader link. Third-party mirrors are unsupported and unsafe.',
   },
 ]

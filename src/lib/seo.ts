@@ -43,7 +43,7 @@ export function siteIdentityGraph() {
       alternateName: [
         'Fortnite Hacks',
         'Fortnite Battle Royale Cheats',
-        'getfortnitehacks.io',
+        'getfortnitehacks.org',
         'Fortnite Aimbot ESP',
       ],
       url: SITE_URL,

@@ -3,7 +3,7 @@ import { join, relative } from 'node:path'
 
 const root = join(import.meta.dirname, '..')
 const dist = join(root, 'dist')
-const site = 'https://getfortnitehacks.io'
+const site = 'https://getfortnitehacks.org'
 const failures = []
 
 function fail(message) {
@@ -108,7 +108,7 @@ for (const [name, html] of [
   ['product', product],
   ['reviews', reviews],
 ]) {
-  if (!html.includes('"@id":"https://getfortnitehacks.io/#product"')) {
+  if (!html.includes('"@id":"https://getfortnitehacks.org/#product"')) {
     fail(`${name}: missing shared Product ID`)
   }
 }
@@ -146,8 +146,8 @@ for (const file of files) {
   const twImage = html.match(/<meta name="twitter:image" content="([^"]+)"/)?.[1]
   const robotsMeta = html.match(/<meta name="robots" content="([^"]+)"/)?.[1]
 
-  if (!ogImage?.startsWith('https://getfortnitehacks.io/og/') || !ogImage.endsWith('.jpg')) {
-    fail(`${page}: og:image must be https://getfortnitehacks.io/og/*.jpg for SERP thumbnails`)
+  if (!ogImage?.startsWith('https://getfortnitehacks.org/og/') || !ogImage.endsWith('.jpg')) {
+    fail(`${page}: og:image must be https://getfortnitehacks.org/og/*.jpg for SERP thumbnails`)
   }
   if (!twImage || twImage !== ogImage) {
     fail(`${page}: twitter:image must match og:image`)
@@ -202,8 +202,8 @@ if (
 const sitemap = readFileSync(join(dist, 'sitemap.xml'), 'utf8')
 if (sitemap.includes('<sitemapindex')) fail('sitemap.xml must be a single urlset, not an index')
 if (/forums\/(instructions|how-to-load)/.test(sitemap)) fail('Retired forum remains in sitemap.xml')
-if (!sitemap.includes('https://getfortnitehacks.io/')) {
-  fail('sitemap.xml must use https://getfortnitehacks.io URLs')
+if (!sitemap.includes('https://getfortnitehacks.org/')) {
+  fail('sitemap.xml must use https://getfortnitehacks.org URLs')
 }
 if (!sitemap.includes('/videos/fortnite-preview.mp4')) {
   fail('sitemap.xml missing Fortnite preview video entry')
@@ -285,7 +285,7 @@ if (!existsSync(join(dist, 'robots.txt'))) fail('dist/robots.txt is missing')
 if (!existsSync(join(dist, '_routes.json'))) fail('dist/_routes.json is missing')
 
 const robots = readFileSync(join(dist, 'robots.txt'), 'utf8')
-if (!robots.includes('Sitemap: https://getfortnitehacks.io/sitemap.xml')) {
+if (!robots.includes('Sitemap: https://getfortnitehacks.org/sitemap.xml')) {
   fail('robots.txt must point at the canonical HTTPS sitemap')
 }
 if (!robots.includes('Allow: /sitemap.xml')) {
@@ -339,8 +339,8 @@ if (!redirects.includes('/fortnite-hacks')) {
 }
 
 const worker = readFileSync(join(root, 'workers', 'site.js'), 'utf8')
-if (!worker.includes('getfortnitehacks.io')) {
-  fail('workers/site.js must define getfortnitehacks.io as the canonical host')
+if (!worker.includes('getfortnitehacks.org')) {
+  fail('workers/site.js must define getfortnitehacks.org as the canonical host')
 }
 if (!worker.includes('301')) {
   fail('workers/site.js must 301 alternate hosts to the canonical apex')

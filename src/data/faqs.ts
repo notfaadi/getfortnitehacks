@@ -7,15 +7,15 @@ export type FaqItem = {
 export const SITE_FAQS: FaqItem[] = [
   {
     q: 'What are Fortnite Hacks?',
-    a: 'Fortnite Hacks are Fortnite Battle Royale tools on getfortnitehacks.io — silent-aim Aimbot, player ESP, wallhack, infected and loot ESP, and a 2D radar hack — with live Easy Anti-Cheat status after game patches.',
+    a: 'Fortnite Hacks are Fortnite Battle Royale tools on getfortnitehacks.org — silent-aim Aimbot, player ESP, wallhack, infected and loot ESP, and a 2D radar hack — with live Easy Anti-Cheat status after game patches.',
   },
   {
     q: 'How much do Fortnite cheats cost?',
-    a: `Fortnite cheats start from $35 for short access. Longer licenses cost more. Always confirm live Easy Anti-Cheat status and the price on getfortnitehacks.io before checkout.`,
+    a: `Fortnite cheats start from $35 for short access. Longer licenses cost more. Always confirm live Easy Anti-Cheat status and the price on getfortnitehacks.org before checkout.`,
   },
   {
     q: 'Do you sell Fortnite hacks for other games?',
-    a: 'No. getfortnitehacks.io sells Fortnite cheats / Fortnite hacks only — one product, no multi-game catalog.',
+    a: 'No. getfortnitehacks.org sells Fortnite cheats / Fortnite hacks only — one product, no multi-game catalog.',
   },
   {
     q: 'Is Aimbot the main feature?',
@@ -23,7 +23,7 @@ export const SITE_FAQS: FaqItem[] = [
   },
   {
     q: 'How do you handle Easy Anti-Cheat updates?',
-    a: 'We publish live clear-to-load or Updating labels after Fortnite and Easy Anti-Cheat patches. Always check status on getfortnitehacks.io before you load.',
+    a: 'We publish live clear-to-load or Updating labels after Fortnite and Easy Anti-Cheat patches. Always check status on getfortnitehacks.org before you load.',
   },
   {
     q: 'What is Fortnite ESP / wallhack?',

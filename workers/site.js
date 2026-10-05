@@ -3,11 +3,11 @@
  * IMPORTANT: Always fetch assets via https://assets.local — never the request
  * hostname — or Cloudflare returns HTTP 522 on custom domains.
  *
- * Single canonical host: https://getfortnitehacks.io (apex, no www).
- * All other hostnames (.org, www.*, http) → 301 to apex .io.
+ * Single canonical host: https://getfortnitehacks.org (apex, no www).
+ * All other hostnames (.io, www.*, http) → 301 to apex .org.
  * Canonical/hreflang live only in HTML — do not duplicate via Link headers.
  */
-const CANONICAL_HOST = 'getfortnitehacks.io'
+const CANONICAL_HOST = 'getfortnitehacks.org'
 
 function assetsFetch(env, request, pathname) {
   return env.ASSETS.fetch(new Request(new URL(pathname, 'https://assets.local'), request))
@@ -43,7 +43,7 @@ function normalizePathname(pathname) {
   return pathname.replace(/\/$/, '') || '/'
 }
 
-/** 301 to https://getfortnitehacks.io{path} unless already on canonical host + HTTPS. */
+/** 301 to https://getfortnitehacks.org{path} unless already on canonical host + HTTPS. */
 function toCanonicalSiteUrl(url) {
   const host = url.hostname.toLowerCase()
   const bare = host.startsWith('www.') ? host.slice(4) : host

@@ -27,10 +27,10 @@ export const BLOGS: BlogPost[] = [
     slug: 'features-list',
     title: 'Fortnite Cheat Features Checklist',
     excerpt:
-      'Checklist of every Fortnite cheat module on getfortnitehacks.io — silent aim, player ESP, loot ESP, wallhack, radar hack and spoofer — before you open checkout from $35.',
+      'Checklist of every Fortnite cheat module on getfortnitehacks.org — silent aim, player ESP, loot ESP, wallhack, radar hack and spoofer — before you open checkout from $35.',
     metaTitle: 'Fortnite Cheat Features Checklist | Aimbot ESP Radar',
     metaDescription:
-      'Fortnite cheat features checklist: silent aim Aimbot, player ESP, loot ESP, wallhack, radar hack and spoofer on getfortnitehacks.io from $35. Compare modules before you buy.',
+      'Fortnite cheat features checklist: silent aim Aimbot, player ESP, loot ESP, wallhack, radar hack and spoofer on getfortnitehacks.org from $35. Compare modules before you buy.',
     searchTerms: 'fortnite hack features checklist fortnite hacks aimbot esp wallhack radar hack',
     date: '2026-09-17',
     readMinutes: 8,
@@ -40,7 +40,7 @@ export const BLOGS: BlogPost[] = [
         heading: 'Use this checklist before checkout',
         body: [
           'Searching “fortnite hacks” or “fortnite hack” usually means one question: what is actually included? This guide is the module checklist — not the price page. Open Product details for live Easy Anti-Cheat status and checkout from $35.',
-          'Fortnite Hacks on getfortnitehacks.io is a single Fortnite Battle Royale product for Windows PC: one loader, one license, clear-to-load or Updating against Easy Anti-Cheat. Official and many modded private servers are supported when the build allows it.',
+          'Fortnite Hacks on getfortnitehacks.org is a single Fortnite Battle Royale product for Windows PC: one loader, one license, clear-to-load or Updating against Easy Anti-Cheat. Official and many modded private servers are supported when the build allows it.',
         ],
       },
       {
@@ -115,7 +115,7 @@ export const BLOGS: BlogPost[] = [
         heading: 'Save loot-run and PvP configs',
         body: [
           'For quiet gearing, keep Aimbot mild or off and lean on player ESP, loot ESP and radar. For contested military loot, add slight assist without snap behaviour.',
-          'Save a “loot run” and a “PvP” config. Licenses for Fortnite cheats start from $35 on getfortnitehacks.io.',
+          'Save a “loot run” and a “PvP” config. Licenses for Fortnite cheats start from $35 on getfortnitehacks.org.',
         ],
       },
     ],
@@ -217,7 +217,7 @@ export const BLOGS: BlogPost[] = [
       {
         heading: 'After a clean load',
         body: [
-          'Buy Fortnite Hacks on getfortnitehacks.io (from $35), confirm live Easy Anti-Cheat status, launch Fortnite, run the loader, then open the menu with the key in your delivery notes.',
+          'Buy Fortnite Hacks on getfortnitehacks.org (from $35), confirm live Easy Anti-Cheat status, launch Fortnite, run the loader, then open the menu with the key in your delivery notes.',
           'If the menu does not open, do not spam keys — contact support with your order ID.',
         ],
       },
@@ -253,7 +253,7 @@ export const BLOGS: BlogPost[] = [
       {
         heading: '1) Buy and confirm status',
         body: [
-          'Open getfortnitehacks.io. If status is Updating after a Easy Anti-Cheat patch, wait. If status is clear, checkout from $35 and use only the official delivery link.',
+          'Open getfortnitehacks.org. If status is Updating after a Easy Anti-Cheat patch, wait. If status is clear, checkout from $35 and use only the official delivery link.',
         ],
       },
       {
@@ -332,7 +332,7 @@ export const BLOGS: BlogPost[] = [
       {
         heading: 'Why loaders get flagged',
         body: [
-          'Cheat loaders often trip generic heuristics even from a legitimate getfortnitehacks.io purchase. Exclusion comes before you spam launch into Fortnite.',
+          'Cheat loaders often trip generic heuristics even from a legitimate getfortnitehacks.org purchase. Exclusion comes before you spam launch into Fortnite.',
         ],
       },
       {
@@ -401,7 +401,7 @@ export const BLOGS: BlogPost[] = [
       {
         heading: 'Status is part of the product',
         body: [
-          'Easy Anti-Cheat updates can invalidate a build overnight. getfortnitehacks.io shows clear-to-load or Updating so you are not buying a dead loader from a Discord screenshot.',
+          'Easy Anti-Cheat updates can invalidate a build overnight. getfortnitehacks.org shows clear-to-load or Updating so you are not buying a dead loader from a Discord screenshot.',
           'Licenses start from $35 — honest status beats fake always-safe marketing against Easy Anti-Cheat.',
         ],
       },
@@ -519,7 +519,7 @@ export const BLOGS: BlogPost[] = [
         heading: 'Common fixes',
         body: [
           'Restore quarantined files, confirm folder exclusion, close overlays, reboot once, then try one clean load with Fortnite running from the official launcher.',
-          'Do not run random “fix DLL” downloads elsewhere — support only covers official delivery from getfortnitehacks.io.',
+          'Do not run random “fix DLL” downloads elsewhere — support only covers official delivery from getfortnitehacks.org.',
         ],
       },
       {

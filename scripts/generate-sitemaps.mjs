@@ -10,7 +10,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const publicDir = join(root, 'public')
 const dataDir = join(root, 'src', 'data')
 const pagesDir = join(root, 'src', 'pages')
-const SITE = (process.env.SITE_URL || 'https://getfortnitehacks.io').replace(/\/$/, '')
+const SITE = (process.env.SITE_URL || 'https://getfortnitehacks.org').replace(/\/$/, '')
 const TODAY = new Date().toLocaleDateString('en-CA')
 const HREFLANG = ['en', 'x-default']
 
@@ -197,7 +197,7 @@ function imagesForPath(path, games, forums) {
       {
         src: '/og/home.jpg',
         title: 'Fortnite Hacks Open Graph',
-        caption: 'Google and social preview image for getfortnitehacks.io homepage.',
+        caption: 'Google and social preview image for getfortnitehacks.org homepage.',
       },
       {
         src: HERO_FULL,
@@ -217,7 +217,7 @@ function imagesForPath(path, games, forums) {
       {
         src: OG_DEFAULT,
         title: 'Fortnite Hacks Product Social Preview',
-        caption: 'Default Open Graph image for getfortnitehacks.io product pages.',
+        caption: 'Default Open Graph image for getfortnitehacks.org product pages.',
       },
     ]
   }
@@ -282,7 +282,7 @@ function imagesForPath(path, games, forums) {
         title: `${forum?.title || slug} Open Graph`,
         caption:
           forum?.metaDescription ||
-          `Google preview image for ${forum?.title || slug} on getfortnitehacks.io.`,
+          `Google preview image for ${forum?.title || slug} on getfortnitehacks.org.`,
       },
       {
         src: FORUM_IMAGES[slug] || MENU,
@@ -326,7 +326,7 @@ function imagesForPath(path, games, forums) {
       {
         src: '/og/privacy.jpg',
         title: 'Fortnite Hacks Privacy Policy',
-        caption: 'Privacy policy preview for getfortnitehacks.io orders and support.',
+        caption: 'Privacy policy preview for getfortnitehacks.org orders and support.',
       },
     ]
   }
@@ -482,8 +482,8 @@ function validate(games, forums, allPaths, sitemap) {
   if (/Tarkov|tarkovcheats|EFT Reaper|Warzone|warzonecheats|Ricochet/i.test(sitemap)) {
     errors.push('Sitemap still contains legacy Tarkov/Warzone labels')
   }
-  if (!sitemap.includes('getfortnitehacks.io')) {
-    errors.push('Sitemap must target getfortnitehacks.io')
+  if (!sitemap.includes('getfortnitehacks.org')) {
+    errors.push('Sitemap must target getfortnitehacks.org')
   }
   if (/tarkovcheats|warzonecheats|wardogshacks|theisle/i.test(sitemap)) {
     errors.push('Sitemap contains a non-Fortnite domain')

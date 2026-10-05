@@ -72,7 +72,7 @@ function overlaySvg(width, height, eyebrow, title, subtitle) {
         )
         .join('\n')}
       <text x="64" y="480" fill="#c9bdd2" font-size="26" font-family="Arial, sans-serif">${escapeXml(subtitle)}</text>
-      <text x="64" y="560" fill="#9299a3" font-size="20" font-family="Arial, sans-serif">getfortnitehacks.io</text>
+      <text x="64" y="560" fill="#9299a3" font-size="20" font-family="Arial, sans-serif">getfortnitehacks.org</text>
     </svg>
   `)
 }
@@ -159,7 +159,7 @@ const staticOg = [
     source: heroFull,
     eyebrow: 'POLICY',
     title: 'Privacy Policy',
-    subtitle: 'How getfortnitehacks.io handles order data',
+    subtitle: 'How getfortnitehacks.org handles order data',
   },
   {
     file: 'terms.jpg',
@@ -193,7 +193,7 @@ if (!forums.length) {
     forums.push({
       slug,
       title: `Fortnite Hacks ${slug}`,
-      description: 'Fortnite cheats guide on getfortnitehacks.io',
+      description: 'Fortnite cheats guide on getfortnitehacks.org',
     })
   }
 }
@@ -212,7 +212,7 @@ for (const forum of forums) {
     source,
     'FORTNITE GUIDE',
     forum.title.replace(/\s*\|\s*.*$/, '').slice(0, 48),
-    'Fortnite cheats · getfortnitehacks.io',
+    'Fortnite cheats · getfortnitehacks.org',
   )
   created.push(file)
 }
@@ -238,7 +238,7 @@ function fillerSvg(width, height, eyebrow, title, subtitle) {
 for (const [name, eyebrow, title, subtitle] of [
   ['fortnite-tactical-art.jpg', 'FORTNITE BR', 'Fortnite Hacks', 'Aimbot · ESP · Loot ESP · Easy Anti-Cheat'],
   ['fortnite-control-art.jpg', 'FORTNITE · WINDOWS PC', 'Fortnite ESP & Radar', 'Built for Fortnite Battle Royale'],
-  ['fortnite-home-art.jpg', 'getfortnitehacks.io', 'Fortnite Hacks', 'Aimbot, ESP, wallhack and radar hack'],
+  ['fortnite-home-art.jpg', 'getfortnitehacks.org', 'Fortnite Hacks', 'Aimbot, ESP, wallhack and radar hack'],
 ]) {
   const path = join(mediaDir, name)
   if (
