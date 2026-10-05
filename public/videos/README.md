@@ -1,7 +1,7 @@
-﻿# Videos
+# Videos
 
-Self-hosted DayZ / DayZ Cheats media:
-- `/videos/dayz-preview.mp4` — battlelog DayZ Reaper preview (no third-party embeds)
-- `/media/dayz-hero-full.webp`, `dayz-cover.webp`, `dayz-box.jpg` — product art
-- `/media/dayz-menu.gif`, `dayz-esp-gameplay.gif` — menu/ESP stills
-- `/media/dayz-video-thumb.jpg` — preview poster frame
+Self-hosted Fortnite / Fortnite Hacks media:
+- `/videos/fortnite-preview.mp4` — battlelog Fortnite Reaper preview (no third-party embeds)
+- `/media/fortnite-hero-full.webp`, `fortnite-cover.webp`, `fortnite-box.jpg` — product art
+- `/media/fortnite-menu.gif`, `fortnite-esp-gameplay.gif` — menu/ESP stills
+- `/media/fortnite-video-thumb.jpg` — preview poster frame

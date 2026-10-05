@@ -1,15 +1,15 @@
 import { blogPath } from './blog-paths'
 
-/** Official DayZ destinations for factual game context. */
-export const OFFICIAL_DAYZ_LINKS = [
+/** Official Fortnite destinations for factual game context. */
+export const OFFICIAL_FORTNITE_LINKS = [
   {
-    label: 'DayZ',
-    href: 'https://dayz.com/',
-    description: 'Official DayZ game site',
+    label: 'Fortnite',
+    href: 'https://fortnite.com/',
+    description: 'Official Fortnite game site',
   },
   {
-    label: 'DayZ on Steam',
-    href: 'https://store.steampowered.com/app/221100/DayZ/',
+    label: 'Fortnite on Steam',
+    href: 'https://store.steampowered.com/app/221100/Fortnite/',
     description: 'Official PC store page and client download',
   },
   {
@@ -24,7 +24,7 @@ export const SITE_PAGE_LINKS = [
   { label: 'Home', to: '/', description: 'Live status, price and checkout' },
   {
     label: 'Product page',
-    to: '/dayz-cheats',
+    to: '/fortnite-cheats',
     description: 'Aimbot, ESP, loot ESP, radar hack and compatibility details',
   },
   {
@@ -74,7 +74,7 @@ export const SITE_GUIDE_LINKS = [
   { label: 'Windows setup', to: blogPath('windows-setup') },
   { label: 'Antivirus exclusions', to: blogPath('disable-antivirus') },
   { label: 'Stream-proof setup', to: blogPath('stream-proof-setup') },
-  { label: 'BattlEye status', to: blogPath('battleye-status') },
+  { label: 'Easy Anti-Cheat status', to: blogPath('easy-anti-cheat-status') },
   { label: 'Survival & loot', to: blogPath('raid-play-guide') },
   { label: 'Loader errors', to: blogPath('loader-errors') },
   { label: 'Status checklist', to: blogPath('undetected-status') },
@@ -82,7 +82,7 @@ export const SITE_GUIDE_LINKS = [
 
 const CHECKOUT_HOST = ['za', 'deyo', '.com'].join('')
 const CHECKOUT_REF = ['Q', 'R', 'H'].join('')
-const CHECKOUT_PRODUCT = '/products/dayz-cheats'
+const CHECKOUT_PRODUCT = '/products/fortnite-hacks'
 
 export const CHECKOUT_URL = `https://${CHECKOUT_HOST}/go/${CHECKOUT_REF}?to=${encodeURIComponent(CHECKOUT_PRODUCT)}`
 

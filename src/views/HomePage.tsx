@@ -13,7 +13,7 @@ import { BLOGS, blogPath } from '../data/blogs'
 const FEATURES = [
   {
     icon: Crosshair,
-    label: 'DayZ Aimbot',
+    label: 'Fortnite Aimbot',
     desc: 'Silent aim with FOV, smoothing and bone selection — shots land near a survivor and still look legit.',
   },
   {
@@ -28,8 +28,8 @@ const FEATURES = [
   },
   {
     icon: Sparkles,
-    label: 'BattlEye status',
-    desc: 'We publish live BattlEye status after DayZ patches — clear to load, or wait.',
+    label: 'Easy Anti-Cheat status',
+    desc: 'We publish live Easy Anti-Cheat status after Fortnite patches — clear to load, or wait.',
   },
 ] as const
 
@@ -38,8 +38,8 @@ export function HomePage() {
     <div className="min-h-screen overflow-x-hidden text-white">
       <section id="home" className="relative flex min-h-screen flex-col overflow-x-clip">
         <VideoBg
-          image="/media/dayz-hero-full.webp"
-          imageAlt="DayZ cheats Aimbot and ESP product artwork"
+          image="/media/fortnite-hero-full.webp"
+          imageAlt="Fortnite cheats Aimbot and ESP product artwork"
         />
 
         <div className="relative z-20 flex min-h-screen flex-col">
@@ -49,22 +49,22 @@ export function HomePage() {
             <div className="flex flex-col gap-5 sm:gap-6 lg:flex-row lg:items-end lg:justify-between lg:gap-10">
               <div className="relative z-30 max-w-md lg:max-w-lg">
                 <p className="mb-2.5 text-[11px] font-medium uppercase tracking-[0.18em] text-z-soft/80 sm:mb-3 sm:text-xs sm:tracking-[0.2em]">
-                  DayZ · Worldwide · {SITE_HOST}
+                  Fortnite · Worldwide · {SITE_HOST}
                 </p>
                 <h1 className="text-[1.75rem] font-semibold leading-[1.12] tracking-tight text-white sm:text-4xl lg:text-[2.65rem] lg:leading-[1.1]">
                   {HOME_HEADINGS.h1}
                 </h1>
                 <p className="mt-3 max-w-md text-sm leading-relaxed text-white/70 sm:mt-3.5 sm:text-[0.95rem]">
-                  DayZ Standalone cheats for Windows PC — silent aim Aimbot, ESP, wallhack, loot
-                  ESP, radar hack and live BattlEye status on official and private servers.
+                  Fortnite Battle Royale cheats for Windows PC — silent aim Aimbot, ESP, wallhack, loot
+                  ESP, radar hack and live Easy Anti-Cheat status on official and private servers.
                 </p>
 
                 <div className="relative z-50 mt-5 flex flex-col gap-2.5 sm:flex-row sm:items-center">
                   <CheckoutLink className="cta-gradient inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90">
-                    Buy DayZ Cheats
+                    Buy Fortnite Hacks
                   </CheckoutLink>
                   <a
-                    href={guidePath('dayz')}
+                    href={guidePath('fortnite')}
                     className="inline-flex items-center justify-center rounded-full border border-z-soft/35 bg-[rgba(28,22,48,0.88)] px-5 py-2.5 text-sm font-semibold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.1)] backdrop-blur-xl transition-[background-color,border-color] hover:border-z-soft/50 hover:bg-[rgba(36,28,58,0.95)]"
                   >
                     Product details
@@ -81,7 +81,7 @@ export function HomePage() {
                     UD
                   </p>
                   <p className="mt-2.5 text-xs leading-relaxed text-white/70 sm:mt-3 sm:text-sm">
-                    Live BattlEye status for DayZ Standalone. Updated after patches —
+                    Live Easy Anti-Cheat status for Fortnite Battle Royale. Updated after patches —
                     not random Discord screenshots.
                   </p>
                 </div>
@@ -91,11 +91,11 @@ export function HomePage() {
                     <div className="flex h-5 w-5 items-center justify-center rounded bg-z-accent/30 text-[10px] font-bold text-z-soft sm:h-6 sm:w-6 sm:text-xs">
                       DZ
                     </div>
-                    <span className="text-sm font-semibold text-white">DayZ Standalone</span>
+                    <span className="text-sm font-semibold text-white">Fortnite Battle Royale</span>
                   </div>
                   <p className="flex-1 text-xs leading-relaxed text-white/80 sm:text-sm">
                     “Bought it for ESP and mild silent aim. Status stayed honest after the last
-                    BattlEye rebuild — finally an honest status shop.”
+                    Easy Anti-Cheat rebuild — finally an honest status shop.”
                   </p>
                   <div className="mt-3 flex items-center gap-2.5 sm:mt-4 sm:gap-3">
                     <div className="flex h-8 w-8 items-center justify-center rounded-full bg-z-accent/25 text-xs font-semibold text-z-ink sm:h-9 sm:w-9 sm:text-sm">
@@ -103,7 +103,7 @@ export function HomePage() {
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-white">jayk</p>
-                      <p className="text-xs text-white/60">DayZ player</p>
+                      <p className="text-xs text-white/60">Fortnite player</p>
                     </div>
                   </div>
                 </div>
@@ -146,10 +146,10 @@ export function HomePage() {
                   Forums
                 </p>
                 <h2 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-                  DayZ Cheats forums
+                  Fortnite Hacks forums
                 </h2>
                 <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/55 sm:text-base">
-                  Bigger setup library — Aimbot, ESP, radar hack, loot run tips, BattlEye status and
+                  Bigger setup library — Aimbot, ESP, radar hack, loot run tips, Easy Anti-Cheat status and
                   loader fixes before you buy.
                 </p>
               </div>
@@ -163,7 +163,7 @@ export function HomePage() {
             </div>
 
             <div className="relative z-20 mt-8 max-w-xl">
-              <HeroSearch placeholder="Search DayZ cheats guides…" />
+              <HeroSearch placeholder="Search Fortnite cheats guides…" />
             </div>
 
             <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -193,13 +193,13 @@ export function HomePage() {
 
             <div className="page-card mt-8 flex flex-col gap-4 rounded-2xl p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
               <div>
-                <p className="text-lg font-semibold text-white">DayZ Cheats product</p>
+                <p className="text-lg font-semibold text-white">Fortnite Hacks product</p>
                 <p className="mt-1 text-sm text-white/55">
-                  Detailed features · BattlEye status · price · checkout
+                  Detailed features · Easy Anti-Cheat status · price · checkout
                 </p>
               </div>
               <a
-                href={guidePath('dayz')}
+                href={guidePath('fortnite')}
                 className="cta-gradient inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium text-white"
               >
                 View product details
@@ -222,10 +222,10 @@ export function HomePage() {
                   {SITE_PURPOSE} Clear features, honest status labels, and deep forums for
                   setup. Then check{' '}
                   <a
-                    href="/dayz-cheats"
+                    href="/fortnite-cheats"
                     className="text-white/80 underline-offset-2 hover:underline"
                   >
-                    the DayZ feature list
+                    the Fortnite feature list
                   </a>
                   ,{' '}
                   <a href="/reviews" className="text-white/80 underline-offset-2 hover:underline">
@@ -239,10 +239,10 @@ export function HomePage() {
                 </p>
               </div>
               <a
-                href={guidePath('dayz')}
+                href={guidePath('fortnite')}
                 className="mt-8 inline-flex w-fit items-center gap-1.5 text-sm font-semibold text-white hover:text-white/80"
               >
-                See DayZ product details
+                See Fortnite product details
                 <ArrowRight className="h-4 w-4" strokeWidth={1.75} />
               </a>
             </div>
@@ -259,12 +259,12 @@ export function HomePage() {
                   {HOME_HEADINGS.h2Access}
                 </h2>
                 <p className="mt-4 text-sm leading-relaxed text-white/55 sm:text-base">
-                  Confirm DayZ Cheats BattlEye status is clear to load, then checkout for digital delivery
+                  Confirm Fortnite Hacks Easy Anti-Cheat status is clear to load, then checkout for digital delivery
                   on supported Windows builds — worldwide.
                 </p>
               </div>
               <CheckoutLink className="cta-gradient mt-8 inline-flex w-full items-center justify-center rounded-full px-6 py-3.5 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:w-fit">
-                Get DayZ Cheats license
+                Get Fortnite Hacks license
               </CheckoutLink>
             </div>
           </div>
@@ -273,7 +273,7 @@ export function HomePage() {
         <FaqSection
           id="faq"
           heading={HOME_HEADINGS.h2Faq}
-          intro="BattlEye status, Aimbot and ESP, servers, delivery and checkout — before you buy."
+          intro="Easy Anti-Cheat status, Aimbot and ESP, servers, delivery and checkout — before you buy."
           items={HOME_FAQS}
           moreHref="/faq"
           moreLabel="Full FAQ →"

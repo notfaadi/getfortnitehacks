@@ -8,67 +8,67 @@ export type SeoMediaItem = {
   videoDescription?: string
 }
 
-/** DayZ product art + menu stills (self-hosted). */
-export const DAYZ_HERO = '/media/dayz-hero-full.webp'
-export const DAYZ_SOLDIER = '/media/dayz-hero-full.webp'
-export const DAYZ_COVER = '/media/dayz-cover.webp'
-export const DAYZ_BOX = '/media/dayz-box.jpg'
-export const DAYZ_ESP = '/media/dayz-esp-gameplay.gif'
-export const DAYZ_MENU = '/media/dayz-menu.gif'
-export const DAYZ_GAMEPLAY = '/media/dayz-esp-gameplay.gif'
-export const DAYZ_HOME_ART = '/media/dayz-home-art.jpg'
-export const DAYZ_CONTROL = '/media/dayz-control-art.jpg'
-export const DAYZ_TACTICAL = '/media/dayz-tactical-art.jpg'
-export const DAYZ_VIDEO_THUMB = '/media/dayz-video-thumb.jpg'
+/** Fortnite product art + menu stills (self-hosted). */
+export const FORTNITE_HERO = '/media/fortnite-hero-full.webp'
+export const FORTNITE_SOLDIER = '/media/fortnite-hero-full.webp'
+export const FORTNITE_COVER = '/media/fortnite-cover.webp'
+export const FORTNITE_BOX = '/media/fortnite-box.jpg'
+export const FORTNITE_ESP = '/media/fortnite-esp-gameplay.gif'
+export const FORTNITE_MENU = '/media/fortnite-menu.gif'
+export const FORTNITE_GAMEPLAY = '/media/fortnite-esp-gameplay.gif'
+export const FORTNITE_HOME_ART = '/media/fortnite-home-art.jpg'
+export const FORTNITE_CONTROL = '/media/fortnite-control-art.jpg'
+export const FORTNITE_TACTICAL = '/media/fortnite-tactical-art.jpg'
+export const FORTNITE_VIDEO_THUMB = '/media/fortnite-video-thumb.jpg'
 
-/** Self-hosted DayZ Reaper preview (Bunny Stream GUID ee0735e7-…). */
-export const DAYZ_HOME_VIDEO = {
+/** Self-hosted Fortnite Reaper preview (Bunny Stream GUID ee0735e7-…). */
+export const FORTNITE_HOME_VIDEO = {
   id: 'ee0735e7-c9a3-4072-b818-98e2bb7f07ff',
-  src: '/videos/dayz-preview.mp4',
-  poster: DAYZ_VIDEO_THUMB,
-  title: 'DayZ Cheats Aimbot and ESP preview',
-  caption: 'Preview of DayZ Aimbot, ESP menu, loot highlighting and radar hack features on PC.',
+  src: '/videos/fortnite-preview.mp4',
+  poster: FORTNITE_VIDEO_THUMB,
+  title: 'Fortnite Hacks Aimbot and ESP preview',
+  caption: 'Preview of Fortnite Aimbot, ESP menu, loot highlighting and radar hack features on PC.',
 } as const
 
 export const PAGE_MEDIA = {
   home: {
-    image: DAYZ_SOLDIER,
-    alt: 'DayZ cheats Aimbot and ESP product artwork for DayZ Standalone on PC',
-    title: 'DayZ Cheats for DayZ Standalone',
-    caption: 'Feature overview for DayZ Aimbot, ESP, wallhack, loot ESP and radar hack.',
+    image: FORTNITE_SOLDIER,
+    alt: 'Fortnite cheats Aimbot and ESP product artwork for Fortnite Battle Royale on PC',
+    title: 'Fortnite Hacks for Fortnite Battle Royale',
+    caption: 'Feature overview for Fortnite Aimbot, ESP, wallhack, loot ESP and radar hack.',
   },
   product: {
-    image: DAYZ_COVER,
-    video: DAYZ_HOME_VIDEO.src,
-    alt: 'DayZ ESP, silent aim Aimbot and loot highlight feature artwork',
-    title: 'DayZ Aimbot, ESP and Radar Hack Features',
-    caption: 'Product overview for DayZ Standalone on Windows PC.',
-    videoTitle: DAYZ_HOME_VIDEO.title,
-    videoDescription: DAYZ_HOME_VIDEO.caption,
+    image: FORTNITE_COVER,
+    video: FORTNITE_HOME_VIDEO.src,
+    alt: 'Fortnite ESP, silent aim Aimbot and loot highlight feature artwork',
+    title: 'Fortnite Aimbot, ESP and Radar Hack Features',
+    caption: 'Product overview for Fortnite Battle Royale on Windows PC.',
+    videoTitle: FORTNITE_HOME_VIDEO.title,
+    videoDescription: FORTNITE_HOME_VIDEO.caption,
   },
   forums: {
-    image: DAYZ_HERO,
-    alt: 'DayZ cheats product artwork',
-    title: 'DayZ Cheats Guides',
-    caption: 'Reference for setup, Aimbot, ESP, loot and BattlEye status articles.',
+    image: FORTNITE_HERO,
+    alt: 'Fortnite cheats product artwork',
+    title: 'Fortnite Hacks Guides',
+    caption: 'Reference for setup, Aimbot, ESP, loot and Easy Anti-Cheat status articles.',
   },
   reviews: {
-    image: DAYZ_ESP,
-    alt: 'DayZ cheats ESP gameplay review artwork',
-    title: 'DayZ Cheats Reviews',
-    caption: 'Feature and compatibility feedback for DayZ cheats.',
+    image: FORTNITE_ESP,
+    alt: 'Fortnite cheats ESP gameplay review artwork',
+    title: 'Fortnite Hacks Reviews',
+    caption: 'Feature and compatibility feedback for Fortnite cheats.',
   },
   faq: {
-    image: DAYZ_MENU,
-    alt: 'DayZ cheats menu artwork for the FAQ',
-    title: 'DayZ Cheats FAQ',
-    caption: 'Compatibility, status and setup answers for DayZ Standalone.',
+    image: FORTNITE_MENU,
+    alt: 'Fortnite cheats menu artwork for the FAQ',
+    title: 'Fortnite Hacks FAQ',
+    caption: 'Compatibility, status and setup answers for Fortnite Battle Royale.',
   },
   support: {
-    image: DAYZ_HERO,
-    alt: 'DayZ cheats support artwork',
-    title: 'DayZ Cheats Support',
-    caption: 'Delivery, loader and setup help for DayZ cheats.',
+    image: FORTNITE_HERO,
+    alt: 'Fortnite cheats support artwork',
+    title: 'Fortnite Hacks Support',
+    caption: 'Delivery, loader and setup help for Fortnite cheats.',
   },
 } as const satisfies Record<string, SeoMediaItem>
 
@@ -82,13 +82,13 @@ const FORUM_MEDIA: Record<string, SeoMediaItem> = {
   'esp-wallhack-guide': { ...PAGE_MEDIA.reviews },
   'radar-hack-guide': { ...PAGE_MEDIA.faq },
   'stream-proof-setup': { ...PAGE_MEDIA.forums },
-  'battleye-status': { ...PAGE_MEDIA.product },
+  'easy-anti-cheat-status': { ...PAGE_MEDIA.product },
   'windows-setup': { ...PAGE_MEDIA.support },
   'raid-play-guide': {
-    image: DAYZ_BOX,
-    alt: 'DayZ survival and loot run cheats artwork',
-    title: 'DayZ Survival and Loot Run Cheats Guide',
-    caption: 'Loot run tips for DayZ Aimbot, ESP and radar hack.',
+    image: FORTNITE_BOX,
+    alt: 'Fortnite survival and loot run cheats artwork',
+    title: 'Fortnite Survival and Loot Run Cheats Guide',
+    caption: 'Loot run tips for Fortnite Aimbot, ESP and radar hack.',
   },
   'loader-errors': { ...PAGE_MEDIA.support },
 }

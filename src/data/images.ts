@@ -1,11 +1,11 @@
-import { DAYZ_HERO, DAYZ_SOLDIER, DAYZ_COVER, DAYZ_MENU, DAYZ_ESP } from './media'
-import { DAYZ_OG, getOgImageForPath, PAGE_OG } from './og'
+import { FORTNITE_HERO, FORTNITE_SOLDIER, FORTNITE_COVER, FORTNITE_MENU, FORTNITE_ESP } from './media'
+import { FORTNITE_OG, getOgImageForPath, PAGE_OG } from './og'
 
-export { DAYZ_OG, getOgImageForPath, PAGE_OG }
+export { FORTNITE_OG, getOgImageForPath, PAGE_OG }
 export { forumOgImage } from './og'
 
-export const DAYZ_PRODUCT_HERO = DAYZ_HERO
-export const DAYZ_PRODUCT_COVER = DAYZ_COVER
+export const FORTNITE_PRODUCT_HERO = FORTNITE_HERO
+export const FORTNITE_PRODUCT_COVER = FORTNITE_COVER
 
 export type ImageSeoFields = {
   alt: string
@@ -21,13 +21,13 @@ export const IMAGE_SEO: Record<
     heroCaption: string
   }
 > = {
-  dayz: {
-    alt: 'DayZ cheats product artwork for DayZ Standalone on PC',
-    title: 'DayZ Cheats Product Details',
-    caption: 'DayZ Aimbot, ESP, wallhack, loot ESP, radar hack and BattlEye compatibility',
-    heroAlt: 'DayZ cheats silent aim Aimbot and ESP features',
-    heroTitle: 'DayZ Cheats Features',
-    heroCaption: 'Review DayZ Aimbot, ESP, radar hack and current BattlEye status',
+  fortnite: {
+    alt: 'Fortnite cheats product artwork for Fortnite Battle Royale on PC',
+    title: 'Fortnite Hacks Product Details',
+    caption: 'Fortnite Aimbot, ESP, wallhack, loot ESP, radar hack and Easy Anti-Cheat compatibility',
+    heroAlt: 'Fortnite cheats silent aim Aimbot and ESP features',
+    heroTitle: 'Fortnite Hacks Features',
+    heroCaption: 'Review Fortnite Aimbot, ESP, radar hack and current Easy Anti-Cheat status',
   },
 }
 
@@ -39,55 +39,55 @@ export const PAGE_IMAGES: Record<
   PageImage
 > = {
   home: {
-    src: DAYZ_SOLDIER,
+    src: FORTNITE_SOLDIER,
     og: PAGE_OG.home,
-    alt: 'DayZ cheats Aimbot and ESP artwork for DayZ Standalone on PC',
-    title: 'DayZ Cheats',
-    caption: 'DayZ Aimbot, ESP, wallhack and radar hack overview.',
+    alt: 'Fortnite cheats Aimbot and ESP artwork for Fortnite Battle Royale on PC',
+    title: 'Fortnite Hacks',
+    caption: 'Fortnite Aimbot, ESP, wallhack and radar hack overview.',
   },
   forums: {
-    src: DAYZ_HERO,
+    src: FORTNITE_HERO,
     og: PAGE_OG.forums,
-    alt: 'DayZ cheats product artwork',
-    title: 'DayZ Cheats Guides',
-    caption: 'Setup, Aimbot and ESP guides for DayZ.',
+    alt: 'Fortnite cheats product artwork',
+    title: 'Fortnite Hacks Guides',
+    caption: 'Setup, Aimbot and ESP guides for Fortnite.',
   },
   reviews: {
-    src: DAYZ_ESP,
+    src: FORTNITE_ESP,
     og: PAGE_OG.reviews,
-    alt: 'DayZ cheats review artwork',
-    title: 'DayZ Cheats Reviews',
-    caption: 'Feature and compatibility feedback for DayZ Standalone.',
+    alt: 'Fortnite cheats review artwork',
+    title: 'Fortnite Hacks Reviews',
+    caption: 'Feature and compatibility feedback for Fortnite Battle Royale.',
   },
   faq: {
-    src: DAYZ_MENU,
+    src: FORTNITE_MENU,
     og: PAGE_OG.faq,
-    alt: 'DayZ cheats FAQ artwork',
-    title: 'DayZ Cheats FAQ',
-    caption: 'Compatibility, feature and setup answers for DayZ.',
+    alt: 'Fortnite cheats FAQ artwork',
+    title: 'Fortnite Hacks FAQ',
+    caption: 'Compatibility, feature and setup answers for Fortnite.',
   },
   support: {
-    src: DAYZ_HERO,
+    src: FORTNITE_HERO,
     og: PAGE_OG.support,
-    alt: 'DayZ cheats support artwork',
-    title: 'DayZ Cheats Support',
-    caption: 'Delivery, loader and setup support for DayZ cheats.',
+    alt: 'Fortnite cheats support artwork',
+    title: 'Fortnite Hacks Support',
+    caption: 'Delivery, loader and setup support for Fortnite cheats.',
   },
   product: {
-    src: DAYZ_COVER,
+    src: FORTNITE_COVER,
     og: PAGE_OG.product,
-    alt: 'DayZ Aimbot ESP and radar hack product artwork',
-    title: 'DayZ Cheats Features',
-    caption: 'Product details for DayZ Aimbot and ESP.',
+    alt: 'Fortnite Aimbot ESP and radar hack product artwork',
+    title: 'Fortnite Hacks Features',
+    caption: 'Product details for Fortnite Aimbot and ESP.',
   },
 }
 
 export function getGameImage(_slug: string): string {
-  return DAYZ_PRODUCT_COVER
+  return FORTNITE_PRODUCT_COVER
 }
 
 export function getProductHeroImage(_slug: string): string {
-  return DAYZ_PRODUCT_COVER
+  return FORTNITE_PRODUCT_COVER
 }
 
 export function getOgImage(path?: string): string {

@@ -1,8 +1,8 @@
-# DayZ Cheats (dayzcheats.io)
+# Fortnite Hacks (getfortnitehacks.io)
 
-Static Astro site for DayZ Standalone cheats — silent aim Aimbot, ESP, wallhack, loot ESP, radar hack — Cloudflare Workers ready.
+Static Astro site for Fortnite Battle Royale — aimbot, ESP, wallhack, loot ESP, radar hack — Cloudflare Workers ready.
 
-Worldwide English SEO targeting **dayz cheats**, **dayz hacks**, and **undetected dayz cheats**.
+Worldwide English SEO targeting **fortnite hacks**, **fortnite cheats**, and **undetected fortnite hacks**.
 
 ```bash
 npm install

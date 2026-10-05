@@ -18,7 +18,7 @@ export function HeroSearch({
   value,
   onChange,
   submitTo = 'forums',
-  placeholder = 'Search DayZ Cheats…',
+  placeholder = 'Search Fortnite Hacks…',
   autoFocus = false,
   className = '',
 }: HeroSearchProps) {
@@ -42,12 +42,12 @@ export function HeroSearch({
     const term = q.trim().toLowerCase()
     if (!term) return []
     const cheatAliases = [
-      'dayz cheats',
-      'dayz cheat',
-      'dayz hacks',
-      'dayz hack',
-      'dayz standalone cheats',
-      'dayzhacks',
+      'fortnite hacks',
+      'fortnite hack',
+      'fortnite hacks',
+      'fortnite hack',
+      'fortnite standalone cheats',
+      'fortnitehacks',
       'cheats',
     ]
     if (cheatAliases.some((a) => a.includes(term) || term.includes(a))) {

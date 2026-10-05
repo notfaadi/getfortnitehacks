@@ -1,15 +1,15 @@
-import { DAYZ_HERO } from '../data/media'
+import { FORTNITE_HERO } from '../data/media'
 
 type VideoBgProps = {
-  /** Full-bleed DayZ hero image (defaults to product artwork). */
+  /** Full-bleed Fortnite hero image (defaults to product artwork). */
   image?: string
   imageAlt?: string
 }
 
-/** Full-bleed static DayZ hero — no legacy video background. */
+/** Full-bleed static Fortnite hero — no legacy video background. */
 export function VideoBg({
-  image = DAYZ_HERO,
-  imageAlt = 'DayZ cheats Aimbot and ESP product artwork',
+  image = FORTNITE_HERO,
+  imageAlt = 'Fortnite cheats Aimbot and ESP product artwork',
 }: VideoBgProps) {
   return (
     <div className="hero-video-wrap absolute inset-0 z-0 overflow-hidden pointer-events-none select-none">

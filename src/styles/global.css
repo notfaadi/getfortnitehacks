@@ -116,7 +116,7 @@ body {
   background: #08060f;
 }
 
-/* Hide third-party watermarks on embedded DayZ preview videos */
+/* Hide third-party watermarks on embedded Fortnite preview videos */
 .video-brand-mask {
   position: relative;
   overflow: hidden;

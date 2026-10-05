@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Auto-generate 1200x630 JPEG Open Graph images for every indexed URL.
  * Google SERP / social crawlers fetch these for right-side thumbnails.
  * Never overwrites battlelog-sourced /media assets.
@@ -34,17 +34,17 @@ async function exists(path) {
 }
 
 const requiredBattlelog = [
-  join(mediaDir, 'dayz-hero-full.webp'),
-  join(mediaDir, 'dayz-cover.webp'),
-  join(mediaDir, 'dayz-box.jpg'),
-  join(mediaDir, 'dayz-menu.gif'),
-  join(mediaDir, 'dayz-esp-gameplay.gif'),
-  join(mediaDir, 'dayz-video-thumb.jpg'),
+  join(mediaDir, 'fortnite-hero-full.webp'),
+  join(mediaDir, 'fortnite-cover.webp'),
+  join(mediaDir, 'fortnite-box.jpg'),
+  join(mediaDir, 'fortnite-menu.gif'),
+  join(mediaDir, 'fortnite-esp-gameplay.gif'),
+  join(mediaDir, 'fortnite-video-thumb.jpg'),
 ]
 
 for (const path of requiredBattlelog) {
   if (!(await exists(path))) {
-    throw new Error(`Missing DayZ media asset (do not regenerate): ${path}`)
+    throw new Error(`Missing Fortnite media asset (do not regenerate): ${path}`)
   }
 }
 
@@ -72,7 +72,7 @@ function overlaySvg(width, height, eyebrow, title, subtitle) {
         )
         .join('\n')}
       <text x="64" y="480" fill="#c9bdd2" font-size="26" font-family="Arial, sans-serif">${escapeXml(subtitle)}</text>
-      <text x="64" y="560" fill="#9299a3" font-size="20" font-family="Arial, sans-serif">dayzcheats.io</text>
+      <text x="64" y="560" fill="#9299a3" font-size="20" font-family="Arial, sans-serif">getfortnitehacks.io</text>
     </svg>
   `)
 }
@@ -105,53 +105,53 @@ function loadForumMeta(src) {
   }))
 }
 
-const heroFull = join(mediaDir, 'dayz-hero-full.webp')
-const coverArt = join(mediaDir, 'dayz-cover.webp')
-const espGif = join(mediaDir, 'dayz-esp-gameplay.gif')
-const menuGif = join(mediaDir, 'dayz-menu.gif')
-const videoThumb = join(mediaDir, 'dayz-video-thumb.jpg')
+const heroFull = join(mediaDir, 'fortnite-hero-full.webp')
+const coverArt = join(mediaDir, 'fortnite-cover.webp')
+const espGif = join(mediaDir, 'fortnite-esp-gameplay.gif')
+const menuGif = join(mediaDir, 'fortnite-menu.gif')
+const videoThumb = join(mediaDir, 'fortnite-video-thumb.jpg')
 
 const staticOg = [
   {
     file: 'home.jpg',
     source: heroFull,
-    eyebrow: 'DAYZ CHEATS',
-    title: 'DayZ Aimbot, ESP & Radar Hack',
-    subtitle: 'DayZ cheats from $35 · live BattlEye status',
+    eyebrow: 'FORTNITE HACKS',
+    title: 'Fortnite Aimbot, ESP & Radar Hack',
+    subtitle: 'Fortnite cheats from $35 · live Easy Anti-Cheat status',
   },
   {
-    file: 'dayz-cheats.jpg',
+    file: 'fortnite-cheats.jpg',
     source: coverArt,
     eyebrow: 'PRODUCT DETAILS',
-    title: 'DayZ Aimbot, ESP & Radar',
-    subtitle: 'Features, BattlEye status and price',
+    title: 'Fortnite Aimbot, ESP & Radar',
+    subtitle: 'Features, Easy Anti-Cheat status and price',
   },
   {
     file: 'forums.jpg',
     source: menuGif,
     eyebrow: 'GUIDES',
-    title: 'DayZ Cheats Setup Forums',
-    subtitle: 'Aimbot, ESP, loader and BattlEye guides',
+    title: 'Fortnite Hacks Setup Forums',
+    subtitle: 'Aimbot, ESP, loader and Easy Anti-Cheat guides',
   },
   {
     file: 'reviews.jpg',
     source: espGif,
     eyebrow: 'REVIEWS',
-    title: 'DayZ Cheats Buyer Reviews',
-    subtitle: 'Real DayZ Aimbot and ESP feedback',
+    title: 'Fortnite Hacks Buyer Reviews',
+    subtitle: 'Real Fortnite Aimbot and ESP feedback',
   },
   {
     file: 'faq.jpg',
     source: menuGif,
     eyebrow: 'FAQ',
-    title: 'DayZ Cheats FAQ',
-    subtitle: 'Price, BattlEye status and setup answers',
+    title: 'Fortnite Hacks FAQ',
+    subtitle: 'Price, Easy Anti-Cheat status and setup answers',
   },
   {
     file: 'support.jpg',
     source: videoThumb,
     eyebrow: 'SUPPORT',
-    title: 'DayZ Cheats Support',
+    title: 'Fortnite Hacks Support',
     subtitle: 'Loader, delivery and Windows help',
   },
   {
@@ -159,14 +159,14 @@ const staticOg = [
     source: heroFull,
     eyebrow: 'POLICY',
     title: 'Privacy Policy',
-    subtitle: 'How dayzcheats.io handles order data',
+    subtitle: 'How getfortnitehacks.io handles order data',
   },
   {
     file: 'terms.jpg',
     source: heroFull,
     eyebrow: 'POLICY',
     title: 'Terms of Use',
-    subtitle: 'License rules for DayZ Cheats',
+    subtitle: 'License rules for Fortnite Hacks',
   },
   {
     file: 'refunds.jpg',
@@ -192,8 +192,8 @@ if (!forums.length) {
   for (const slug of loadForumSlugs(blogsSrc)) {
     forums.push({
       slug,
-      title: `DayZ Cheats ${slug}`,
-      description: 'DayZ cheats guide on dayzcheats.io',
+      title: `Fortnite Hacks ${slug}`,
+      description: 'Fortnite cheats guide on getfortnitehacks.io',
     })
   }
 }
@@ -210,9 +210,9 @@ for (const forum of forums) {
   await writeOgJpeg(
     out,
     source,
-    'DAYZ GUIDE',
+    'FORTNITE GUIDE',
     forum.title.replace(/\s*\|\s*.*$/, '').slice(0, 48),
-    'DayZ cheats · dayzcheats.io',
+    'Fortnite cheats · getfortnitehacks.io',
   )
   created.push(file)
 }
@@ -236,9 +236,9 @@ function fillerSvg(width, height, eyebrow, title, subtitle) {
 }
 
 for (const [name, eyebrow, title, subtitle] of [
-  ['dayz-tactical-art.jpg', 'DAYZ STANDALONE', 'DayZ Cheats', 'Aimbot · ESP · Loot ESP · BattlEye'],
-  ['dayz-control-art.jpg', 'DAYZ · WINDOWS PC', 'DayZ ESP & Radar', 'Built for DayZ survival runs'],
-  ['dayz-home-art.jpg', 'dayzcheats.io', 'DayZ Cheats', 'Aimbot, ESP, wallhack and radar hack'],
+  ['fortnite-tactical-art.jpg', 'FORTNITE BR', 'Fortnite Hacks', 'Aimbot · ESP · Loot ESP · Easy Anti-Cheat'],
+  ['fortnite-control-art.jpg', 'FORTNITE · WINDOWS PC', 'Fortnite ESP & Radar', 'Built for Fortnite Battle Royale'],
+  ['fortnite-home-art.jpg', 'getfortnitehacks.io', 'Fortnite Hacks', 'Aimbot, ESP, wallhack and radar hack'],
 ]) {
   const path = join(mediaDir, name)
   if (

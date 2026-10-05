@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Single sitemap at /sitemap.xml — every indexed page URL + image entries.
  * One urlset only (never a sitemap index). 404 is excluded.
  */
@@ -10,21 +10,21 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const publicDir = join(root, 'public')
 const dataDir = join(root, 'src', 'data')
 const pagesDir = join(root, 'src', 'pages')
-const SITE = (process.env.SITE_URL || 'https://dayzcheats.io').replace(/\/$/, '')
+const SITE = (process.env.SITE_URL || 'https://getfortnitehacks.io').replace(/\/$/, '')
 const TODAY = new Date().toLocaleDateString('en-CA')
 const HREFLANG = ['en', 'x-default']
 
-const HERO_FULL = '/media/dayz-hero-full.webp'
-const COVER = '/media/dayz-cover.webp'
-const BOX = '/media/dayz-box.jpg'
-const ESP = '/media/dayz-esp-gameplay.gif'
-const MENU = '/media/dayz-menu.gif'
-const CONTROL = '/media/dayz-control-art.jpg'
-const HOME_ART = '/media/dayz-home-art.jpg'
-const TACTICAL_ART = '/media/dayz-tactical-art.jpg'
-const VIDEO_THUMB = '/media/dayz-video-thumb.jpg'
-const PREVIEW_VIDEO = '/videos/dayz-preview.mp4'
-const OG_DEFAULT = '/og/dayz-cheats.jpg'
+const HERO_FULL = '/media/fortnite-hero-full.webp'
+const COVER = '/media/fortnite-cover.webp'
+const BOX = '/media/fortnite-box.jpg'
+const ESP = '/media/fortnite-esp-gameplay.gif'
+const MENU = '/media/fortnite-menu.gif'
+const CONTROL = '/media/fortnite-control-art.jpg'
+const HOME_ART = '/media/fortnite-home-art.jpg'
+const TACTICAL_ART = '/media/fortnite-tactical-art.jpg'
+const VIDEO_THUMB = '/media/fortnite-video-thumb.jpg'
+const PREVIEW_VIDEO = '/videos/fortnite-preview.mp4'
+const OG_DEFAULT = '/og/fortnite-cheats.jpg'
 
 const ALL_SITE_IMAGES = [
   HERO_FULL,
@@ -37,7 +37,7 @@ const ALL_SITE_IMAGES = [
   TACTICAL_ART,
   VIDEO_THUMB,
   '/og/home.jpg',
-  '/og/dayz-cheats.jpg',
+  '/og/fortnite-cheats.jpg',
   '/og/forums.jpg',
   '/og/reviews.jpg',
   '/og/faq.jpg',
@@ -57,7 +57,7 @@ const FORUM_IMAGES = {
   'esp-wallhack-guide': ESP,
   'radar-hack-guide': MENU,
   'stream-proof-setup': HOME_ART,
-  'battleye-status': COVER,
+  'easy-anti-cheat-status': COVER,
   'windows-setup': HERO_FULL,
   'raid-play-guide': BOX,
   'loader-errors': TACTICAL_ART,
@@ -65,7 +65,7 @@ const FORUM_IMAGES = {
 
 const PAGE_META = {
   '/': { priority: '1.0', changefreq: 'daily' },
-  '/dayz-cheats': { priority: '0.9', changefreq: 'weekly' },
+  '/fortnite-cheats': { priority: '0.9', changefreq: 'weekly' },
   '/forums': { priority: '0.85', changefreq: 'weekly' },
   '/reviews': { priority: '0.8', changefreq: 'weekly' },
   '/faq': { priority: '0.75', changefreq: 'monthly' },
@@ -173,28 +173,28 @@ function imagesForPath(path, games, forums) {
     return [
       {
         src: '/og/home.jpg',
-        title: 'DayZ Cheats Open Graph',
-        caption: 'Google and social preview image for dayzcheats.io homepage.',
+        title: 'Fortnite Hacks Open Graph',
+        caption: 'Google and social preview image for getfortnitehacks.io homepage.',
       },
       {
         src: HERO_FULL,
-        title: 'DayZ Cheats Hero',
-        caption: 'Buy DayZ cheats - DayZ Aimbot, ESP and radar hack hero artwork for PC.',
+        title: 'Fortnite Hacks Hero',
+        caption: 'Buy Fortnite cheats - Fortnite Aimbot, ESP and radar hack hero artwork for PC.',
       },
       {
         src: COVER,
-        title: 'DayZ Cheats Product Cover',
-        caption: 'DayZ cheats product cover for checkout and social previews.',
+        title: 'Fortnite Hacks Product Cover',
+        caption: 'Fortnite cheats product cover for checkout and social previews.',
       },
       {
         src: VIDEO_THUMB,
-        title: 'DayZ Cheats Preview Thumbnail',
-        caption: 'Thumbnail for the DayZ Aimbot and ESP preview video.',
+        title: 'Fortnite Hacks Preview Thumbnail',
+        caption: 'Thumbnail for the Fortnite Aimbot and ESP preview video.',
       },
       {
         src: OG_DEFAULT,
-        title: 'DayZ Cheats Product Social Preview',
-        caption: 'Default Open Graph image for dayzcheats.io product pages.',
+        title: 'Fortnite Hacks Product Social Preview',
+        caption: 'Default Open Graph image for getfortnitehacks.io product pages.',
       },
     ]
   }
@@ -203,13 +203,13 @@ function imagesForPath(path, games, forums) {
   if (game) {
     return [
       {
-        src: '/og/dayz-cheats.jpg',
-        title: 'DayZ Cheats Open Graph',
-        caption: 'Google and social preview for the DayZ cheats product page.',
+        src: '/og/fortnite-cheats.jpg',
+        title: 'Fortnite Hacks Open Graph',
+        caption: 'Google and social preview for the Fortnite cheats product page.',
       },
       {
         src: COVER,
-        title: 'DayZ Aimbot ESP Product Artwork',
+        title: 'Fortnite Aimbot ESP Product Artwork',
         caption: 'Product features, compatibility, status and price before checkout.',
       },
       {
@@ -229,8 +229,8 @@ function imagesForPath(path, games, forums) {
       },
       {
         src: VIDEO_THUMB,
-        title: 'DayZ Cheats Preview Thumbnail',
-        caption: 'Thumbnail for the DayZ cheats preview video.',
+        title: 'Fortnite Hacks Preview Thumbnail',
+        caption: 'Thumbnail for the Fortnite cheats preview video.',
       },
     ]
   }
@@ -239,13 +239,13 @@ function imagesForPath(path, games, forums) {
     return [
       {
         src: '/og/forums.jpg',
-        title: 'DayZ Cheats Forums Open Graph',
-        caption: 'Google preview image for the DayZ Cheats guides index.',
+        title: 'Fortnite Hacks Forums Open Graph',
+        caption: 'Google preview image for the Fortnite Hacks guides index.',
       },
       {
         src: MENU,
-        title: 'DayZ Cheats Forum Artwork',
-        caption: 'Artwork reference for DayZ setup and feature guides.',
+        title: 'Fortnite Hacks Forum Artwork',
+        caption: 'Artwork reference for Fortnite setup and feature guides.',
       },
     ]
   }
@@ -259,14 +259,14 @@ function imagesForPath(path, games, forums) {
         title: `${forum?.title || slug} Open Graph`,
         caption:
           forum?.metaDescription ||
-          `Google preview image for ${forum?.title || slug} on dayzcheats.io.`,
+          `Google preview image for ${forum?.title || slug} on getfortnitehacks.io.`,
       },
       {
         src: FORUM_IMAGES[slug] || MENU,
         title: `${forum?.title || slug} Artwork`,
         caption:
           forum?.excerpt ||
-          `Visible DayZ Cheats guide artwork for ${forum?.title || slug}.`,
+          `Visible Fortnite Hacks guide artwork for ${forum?.title || slug}.`,
       },
     ]
   }
@@ -275,8 +275,8 @@ function imagesForPath(path, games, forums) {
     return [
       {
         src: '/og/reviews.jpg',
-        title: 'DayZ Cheats Reviews Open Graph',
-        caption: 'Google preview image for DayZ cheats reviews.',
+        title: 'Fortnite Hacks Reviews Open Graph',
+        caption: 'Google preview image for Fortnite cheats reviews.',
       },
     ]
   }
@@ -284,8 +284,8 @@ function imagesForPath(path, games, forums) {
     return [
       {
         src: '/og/faq.jpg',
-        title: 'DayZ Cheats FAQ Open Graph',
-        caption: 'Google preview image for the DayZ Cheats FAQ.',
+        title: 'Fortnite Hacks FAQ Open Graph',
+        caption: 'Google preview image for the Fortnite Hacks FAQ.',
       },
     ]
   }
@@ -293,8 +293,8 @@ function imagesForPath(path, games, forums) {
     return [
       {
         src: '/og/support.jpg',
-        title: 'DayZ Cheats Support Open Graph',
-        caption: 'Google preview image for DayZ Cheats support.',
+        title: 'Fortnite Hacks Support Open Graph',
+        caption: 'Google preview image for Fortnite Hacks support.',
       },
     ]
   }
@@ -302,8 +302,8 @@ function imagesForPath(path, games, forums) {
     return [
       {
         src: '/og/privacy.jpg',
-        title: 'DayZ Cheats Privacy Policy',
-        caption: 'Privacy policy preview for dayzcheats.io orders and support.',
+        title: 'Fortnite Hacks Privacy Policy',
+        caption: 'Privacy policy preview for getfortnitehacks.io orders and support.',
       },
     ]
   }
@@ -311,8 +311,8 @@ function imagesForPath(path, games, forums) {
     return [
       {
         src: '/og/terms.jpg',
-        title: 'DayZ Cheats Terms of Use',
-        caption: 'License terms preview for DayZ Cheats.',
+        title: 'Fortnite Hacks Terms of Use',
+        caption: 'License terms preview for Fortnite Hacks.',
       },
     ]
   }
@@ -320,23 +320,23 @@ function imagesForPath(path, games, forums) {
     return [
       {
         src: '/og/refunds.jpg',
-        title: 'DayZ Cheats Refund Policy',
-        caption: 'Refund rules preview for digital DayZ Cheats licenses.',
+        title: 'Fortnite Hacks Refund Policy',
+        caption: 'Refund rules preview for digital Fortnite Hacks licenses.',
       },
     ]
   }
 
-  return [{ src: OG_DEFAULT, title: 'DayZ Cheats', caption: 'DayZ Cheats page artwork.' }]
+  return [{ src: OG_DEFAULT, title: 'Fortnite Hacks', caption: 'Fortnite Hacks page artwork.' }]
 }
 
 function videosForPath(path) {
-  if (path === '/dayz-cheats') {
+  if (path === '/fortnite-cheats') {
     return [
       {
         thumb: VIDEO_THUMB,
-        title: 'DayZ Cheats Aimbot and ESP Preview',
+        title: 'Fortnite Hacks Aimbot and ESP Preview',
         description:
-          'Self-hosted DayZ cheats preview showing Aimbot, ESP menu and survival gameplay visuals on PC.',
+          'Self-hosted Fortnite cheats preview showing Aimbot, ESP menu and survival gameplay visuals on PC.',
         content: PREVIEW_VIDEO,
       },
     ]
@@ -445,16 +445,16 @@ function validate(games, forums, allPaths, sitemap) {
     if (!imageLocs.includes(siteUrl(image))) errors.push(`Sitemap missing required image: ${image}`)
   }
   if (!sitemap.includes(siteUrl(PREVIEW_VIDEO))) {
-    errors.push('Sitemap missing DayZ preview video content_loc')
+    errors.push('Sitemap missing Fortnite preview video content_loc')
   }
   if (/Tarkov|tarkovcheats|EFT Reaper|Warzone|warzonecheats|Ricochet/i.test(sitemap)) {
     errors.push('Sitemap still contains legacy Tarkov/Warzone labels')
   }
-  if (!sitemap.includes('dayzcheats.io')) {
-    errors.push('Sitemap must target dayzcheats.io')
+  if (!sitemap.includes('getfortnitehacks.io')) {
+    errors.push('Sitemap must target getfortnitehacks.io')
   }
   if (/tarkovcheats|warzonecheats|wardogshacks|theisle/i.test(sitemap)) {
-    errors.push('Sitemap contains a non-DayZ domain')
+    errors.push('Sitemap contains a non-Fortnite domain')
   }
   if (imageLocs.length < expectedUrls.size) {
     errors.push('Image count is lower than page count - every URL needs an image')
