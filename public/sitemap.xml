@@ -5,7 +5,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://getfortnitehacks.io/</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/" />
@@ -37,8 +37,21 @@
     </image:image>
   </url>
   <url>
+    <loc>https://getfortnitehacks.io/best-fortnite-cheats</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/best-fortnite-cheats" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/best-fortnite-cheats" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://getfortnitehacks.io/fortnite-cheats</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-cheats" />
@@ -55,12 +68,12 @@
     </image:image>
     <image:image>
       <image:loc>https://getfortnitehacks.io/media/fortnite-hero-full.webp</image:loc>
-      <image:title>Fortnite Hacks Product Hero</image:title>
+      <image:title>Fortnite Cheats Product Hero</image:title>
       <image:caption>Hero artwork for Fortnite Aimbot, ESP and radar hack product details.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://getfortnitehacks.io/media/fortnite-menu.gif</image:loc>
-      <image:title>Fortnite Hacks Menu Preview</image:title>
+      <image:title>Fortnite Cheats Menu Preview</image:title>
       <image:caption>Menu and Aimbot settings preview for Fortnite cheats.</image:caption>
     </image:image>
     <image:image>
@@ -83,8 +96,21 @@
     </video:video>
   </url>
   <url>
+    <loc>https://getfortnitehacks.io/undetected-fortnite-cheats</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/undetected-fortnite-cheats" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/undetected-fortnite-cheats" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://getfortnitehacks.io/forums</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/forums" />
@@ -116,24 +142,6 @@
       <image:loc>https://getfortnitehacks.io/media/fortnite-menu.gif</image:loc>
       <image:title>Fortnite Aimbot Settings for Silent Aim Artwork</image:title>
       <image:caption>Tune Fortnite Aimbot FOV, smoothing, hitbox and silent aim so survivor tracking stays effective without looking robotic to spectating admins.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://getfortnitehacks.io/forums/easy-anti-cheat-status</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/forums/easy-anti-cheat-status" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/forums/easy-anti-cheat-status" />
-    <image:image>
-      <image:loc>https://getfortnitehacks.io/og/forums-easy-anti-cheat-status.jpg</image:loc>
-      <image:title>Fortnite Easy Anti-Cheat Status: Clear to Load vs Updating Open Graph</image:title>
-      <image:caption>Fortnite Easy Anti-Cheat status explained for Fortnite cheats: clear-to-load vs Updating after patches, why you wait, and how admin bans differ from anti-cheat detections.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://getfortnitehacks.io/media/fortnite-cover.webp</image:loc>
-      <image:title>Fortnite Easy Anti-Cheat Status: Clear to Load vs Updating Artwork</image:title>
-      <image:caption>What clear-to-load and Updating mean for Fortnite cheats after Easy Anti-Cheat and game patches - and why admin bans are a separate risk.</image:caption>
     </image:image>
   </url>
   <url>
@@ -170,6 +178,24 @@
       <image:loc>https://getfortnitehacks.io/media/fortnite-control-art.jpg</image:loc>
       <image:title>Antivirus Exclusions for Fortnite Hacks Artwork</image:title>
       <image:caption>Allowlist Fortnite cheats in Windows Defender and common antivirus so the loader is not quarantined before first run.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/forums/easy-anti-cheat-status</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/forums/easy-anti-cheat-status" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/forums/easy-anti-cheat-status" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/forums-easy-anti-cheat-status.jpg</image:loc>
+      <image:title>Fortnite Easy Anti-Cheat Status: Clear to Load vs Updating Open Graph</image:title>
+      <image:caption>Fortnite Easy Anti-Cheat status explained for Fortnite cheats: clear-to-load vs Updating after patches, why you wait, and how admin bans differ from anti-cheat detections.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/media/fortnite-cover.webp</image:loc>
+      <image:title>Fortnite Easy Anti-Cheat Status: Clear to Load vs Updating Artwork</image:title>
+      <image:caption>What clear-to-load and Updating mean for Fortnite cheats after Easy Anti-Cheat and game patches - and why admin bans are a separate risk.</image:caption>
     </image:image>
   </url>
   <url>
@@ -336,7 +362,7 @@
   </url>
   <url>
     <loc>https://getfortnitehacks.io/reviews</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews" />
@@ -349,7 +375,7 @@
   </url>
   <url>
     <loc>https://getfortnitehacks.io/faq</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq" />
@@ -362,7 +388,7 @@
   </url>
   <url>
     <loc>https://getfortnitehacks.io/support</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/support" />
@@ -374,12 +400,584 @@
     </image:image>
   </url>
   <url>
-    <loc>https://getfortnitehacks.io/privacy</loc>
-    <lastmod>2026-09-19</lastmod>
+    <loc>https://getfortnitehacks.io/blog</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/bugha-settings-pro-setup</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/bugha-settings-pro-setup" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/bugha-settings-pro-setup" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/chapter-7-season-3-skin-leaks-vbucks</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/chapter-7-season-3-skin-leaks-vbucks" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/chapter-7-season-3-skin-leaks-vbucks" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/creative-warmup-maps-pros-use</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/creative-warmup-maps-pros-use" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/creative-warmup-maps-pros-use" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/elitefn-vs-fortnite-hacks-two-week-test</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/elitefn-vs-fortnite-hacks-two-week-test" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/elitefn-vs-fortnite-hacks-two-week-test" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/fncs-meta-watch-tournament-drops</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/fncs-meta-watch-tournament-drops" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/fncs-meta-watch-tournament-drops" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/fortnite-aimbot-settings-guide</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/fortnite-aimbot-settings-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/fortnite-aimbot-settings-guide" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/fortnite-cheats-2026-whats-new</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/fortnite-cheats-2026-whats-new" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/fortnite-cheats-2026-whats-new" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/fortnite-cheats-buyers-guide</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/fortnite-cheats-buyers-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/fortnite-cheats-buyers-guide" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/fortnite-esp-wallhack-explained</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/fortnite-esp-wallhack-explained" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/fortnite-esp-wallhack-explained" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/fortnite-hacks-complete-guide-2026</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/fortnite-hacks-complete-guide-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/fortnite-hacks-complete-guide-2026" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/fortnite-hacks-vs-cheatvault-comparison</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/fortnite-hacks-vs-cheatvault-comparison" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/fortnite-hacks-vs-cheatvault-comparison" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/fortnite-hacks-vs-ghostware-features-pricing</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/fortnite-hacks-vs-ghostware-features-pricing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/fortnite-hacks-vs-ghostware-features-pricing" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/hammer-ar-s-tier-data-analysis</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/hammer-ar-s-tier-data-analysis" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/hammer-ar-s-tier-data-analysis" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/patch-notes-buffs-nerfs-vaults</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/patch-notes-buffs-nerfs-vaults" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/patch-notes-buffs-nerfs-vaults" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/secret-loot-routes-full-gold</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/secret-loot-routes-full-gold" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/secret-loot-routes-full-gold" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/undetected-fortnite-hacks-eac</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/undetected-fortnite-hacks-eac" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/undetected-fortnite-hacks-eac" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/blog/zero-build-meta-broken-aggressive-strategies</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/blog/zero-build-meta-broken-aggressive-strategies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/blog/zero-build-meta-broken-aggressive-strategies" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/eac-bypass-fortnite</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/eac-bypass-fortnite" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/eac-bypass-fortnite" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/are-fortnite-hacks-undetected-in-2026</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/are-fortnite-hacks-undetected-in-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/are-fortnite-hacks-undetected-in-2026" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/battle-royale-and-zero-build</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/battle-royale-and-zero-build" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/battle-royale-and-zero-build" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/buy-undetected-fortnite-cheats-windows-pc</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/buy-undetected-fortnite-cheats-windows-pc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/buy-undetected-fortnite-cheats-windows-pc" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/does-fortnite-hacks-include-radar-hack</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/does-fortnite-hacks-include-radar-hack" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/does-fortnite-hacks-include-radar-hack" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/eac-anti-cheat-and-fortnite-hacks</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/eac-anti-cheat-and-fortnite-hacks" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/eac-anti-cheat-and-fortnite-hacks" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/esp-wallhack-radar-or-aimbot</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/esp-wallhack-radar-or-aimbot" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/esp-wallhack-radar-or-aimbot" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/how-are-licenses-delivered</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/how-are-licenses-delivered" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/how-are-licenses-delivered" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/how-to-contact-support</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/how-to-contact-support" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/how-to-contact-support" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/what-are-fortnite-hacks</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/what-are-fortnite-hacks" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/what-are-fortnite-hacks" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/what-is-a-fortnite-wallhack</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/what-is-a-fortnite-wallhack" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/what-is-a-fortnite-wallhack" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/faq/where-to-check-updates</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/faq/where-to-check-updates" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/faq/where-to-check-updates" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/features</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/features" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/features" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-aimbot</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-aimbot" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-aimbot" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-aimbot-hack</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-aimbot-hack" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-aimbot-hack" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-cheat-download</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-cheat-download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-cheat-download" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-cheats-2026</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-cheats-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-cheats-2026" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-esp</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-esp" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-esp" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-esp-hack</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-esp-hack" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-esp-hack" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-hacks</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-hacks" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-hacks" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-mod-menu</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-mod-menu" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-mod-menu" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-radar-hack</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-radar-hack" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-radar-hack" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-soft-aim</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-soft-aim" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-soft-aim" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-unlock-all</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-unlock-all" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-unlock-all" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/fortnite-wallhack</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/fortnite-wallhack" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/fortnite-wallhack" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/pricing</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/pricing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/pricing" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/privacy-policy</loc>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/privacy-policy" />
     <image:image>
       <image:loc>https://getfortnitehacks.io/og/privacy.jpg</image:loc>
       <image:title>Fortnite Hacks Privacy Policy</image:title>
@@ -387,12 +985,12 @@
     </image:image>
   </url>
   <url>
-    <loc>https://getfortnitehacks.io/refunds</loc>
-    <lastmod>2026-09-19</lastmod>
+    <loc>https://getfortnitehacks.io/refund-policy</loc>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.45</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/refunds" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/refunds" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/refund-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/refund-policy" />
     <image:image>
       <image:loc>https://getfortnitehacks.io/og/refunds.jpg</image:loc>
       <image:title>Fortnite Hacks Refund Policy</image:title>
@@ -400,8 +998,151 @@
     </image:image>
   </url>
   <url>
+    <loc>https://getfortnitehacks.io/reviews/fortnite-cloud-dma-review-dma-wizard</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews/fortnite-cloud-dma-review-dma-wizard" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/reviews/fortnite-cloud-dma-review-dma-wizard" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/reviews/fortnite-controller-soft-aim-review-ctrl-player99</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews/fortnite-controller-soft-aim-review-ctrl-player99" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/reviews/fortnite-controller-soft-aim-review-ctrl-player99" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/reviews/fortnite-eac-update-review-patchdaymike</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews/fortnite-eac-update-review-patchdaymike" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/reviews/fortnite-eac-update-review-patchdaymike" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/reviews/fortnite-esp-zero-build-review-buildsr4k</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews/fortnite-esp-zero-build-review-buildsr4k" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/reviews/fortnite-esp-zero-build-review-buildsr4k" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/reviews/fortnite-hack-setup-review-stormchaser07</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews/fortnite-hack-setup-review-stormchaser07" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/reviews/fortnite-hack-setup-review-stormchaser07" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/reviews/fortnite-loot-esp-review-lootgoblinx</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews/fortnite-loot-esp-review-lootgoblinx" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/reviews/fortnite-loot-esp-review-lootgoblinx" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/reviews/fortnite-radar-hack-review-vanlifefn</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews/fortnite-radar-hack-review-vanlifefn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/reviews/fortnite-radar-hack-review-vanlifefn" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/reviews/fortnite-sniper-soft-aim-review-snipezonly</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews/fortnite-sniper-soft-aim-review-snipezonly" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/reviews/fortnite-sniper-soft-aim-review-snipezonly" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/reviews/fortnite-soft-aim-ranked-review-rankedgrind42</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews/fortnite-soft-aim-ranked-review-rankedgrind42" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/reviews/fortnite-soft-aim-ranked-review-rankedgrind42" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/reviews/fortnite-soft-aim-review-xkrypt0</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/reviews/fortnite-soft-aim-review-xkrypt0" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/reviews/fortnite-soft-aim-review-xkrypt0" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/setup</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/setup" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/setup" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://getfortnitehacks.io/terms</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/terms" />
@@ -410,6 +1151,19 @@
       <image:loc>https://getfortnitehacks.io/og/terms.jpg</image:loc>
       <image:title>Fortnite Hacks Terms of Use</image:title>
       <image:caption>License terms preview for Fortnite Hacks.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://getfortnitehacks.io/updates</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getfortnitehacks.io/updates" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getfortnitehacks.io/updates" />
+    <image:image>
+      <image:loc>https://getfortnitehacks.io/og/fortnite-cheats.jpg</image:loc>
+      <image:title>Fortnite Hacks</image:title>
+      <image:caption>Fortnite Hacks page artwork.</image:caption>
     </image:image>
   </url>
 </urlset>

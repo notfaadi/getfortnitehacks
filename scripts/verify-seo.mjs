@@ -80,7 +80,9 @@ const support = readFileSync(join(dist, 'support', 'index.html'), 'utf8')
 const forums = readFileSync(join(dist, 'forums', 'index.html'), 'utf8')
 
 if (
-  !home.includes('<title>Fortnite Hacks | Fortnite Cheat Aimbot, ESP &amp; Hacks</title>')
+  !home.includes(
+    '<title>Fortnite Hacks 2026 | Undetected ESP, Aimbot &amp; Wallhack</title>',
+  )
 ) {
   fail('Homepage does not own the exact transactional title')
 }
@@ -326,7 +328,7 @@ if (!redirects.includes('/tarkov-cheats')) {
   fail('_redirects must map the legacy /tarkov-cheats route to /fortnite-cheats')
 }
 if (!redirects.includes('/fortnite-hacks')) {
-  fail('_redirects must map the /fortnite-hacks keyword alias to /fortnite-cheats')
+  fail('_redirects must include /fortnite-hacks canonical trailing-slash rules')
 }
 
 const worker = readFileSync(join(root, 'workers', 'site.js'), 'utf8')

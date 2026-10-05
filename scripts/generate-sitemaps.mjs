@@ -142,6 +142,12 @@ function loadSlugsFromData(file) {
   return [...src.matchAll(/slug:\s*['"]([^'"]+)['"]/g)].map((match) => match[1])
 }
 
+/** SEO landing pages use page('slug', ...) — not slug: '...' literals. */
+function loadLandingSlugs() {
+  const src = readFileSync(join(dataDir, 'seo-landing-pages.ts'), 'utf8')
+  return [...src.matchAll(/\bpage\s*\(\s*['"]([^'"]+)['"]/g)].map((match) => match[1])
+}
+
 function alternateLinks(url) {
   return HREFLANG.map(
     (language) =>
@@ -362,7 +368,7 @@ function videosForPath(path) {
 }
 
 function collectAllPaths(games, forums, staticRoutes) {
-  const landing = loadSlugsFromData('seo-landing-pages.ts')
+  const landing = loadLandingSlugs()
   const faqArticles = loadSlugsFromData('seo-faq-articles.ts')
   const reviewArticles = loadSlugsFromData('seo-review-articles.ts')
   const intelBlog = loadSlugsFromData('intel-blog.ts')
@@ -499,10 +505,7 @@ function main() {
   const sitemap = buildSitemap(games, forums, allPaths)
   validate(games, forums, allPaths, sitemap)
 
-  writeFileSync(join(publicDir, 'sitemap.xml'), sitemap, 'utf8')
-  writeFileSync(
-    join(publicDir, 'robots.txt'),
-    [
+  const robotsTxt = [
       'User-agent: Googlebot',
       'Allow: /',
       'Allow: /sitemap.xml',
@@ -539,9 +542,13 @@ function main() {
       '',
       `Sitemap: ${siteUrl('/sitemap.xml')}`,
       '',
-    ].join('\n'),
-    'utf8',
-  )
+    ].join('\n')
+
+  const distDir = join(root, 'dist')
+  for (const dir of [publicDir, ...(existsSync(distDir) ? [distDir] : [])]) {
+    writeFileSync(join(dir, 'sitemap.xml'), sitemap, 'utf8')
+    writeFileSync(join(dir, 'robots.txt'), robotsTxt, 'utf8')
+  }
 
   for (const name of [
     'sitemap-pages.xml',
