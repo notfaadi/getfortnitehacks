@@ -1,21 +1,9 @@
-# Cloudflare Workers + static assets — required so CI `npx wrangler deploy` succeeds.
-# (Dashboard is locked to that command; `wrangler pages deploy` is not used.)
-name = "fortniteqrh"
+# Cloudflare Worker + static assets (CI: build then `npx wrangler deploy`).
+# Attach getfortnitehacks.io under Workers → getfortnitehacks → Settings → Domains & Routes.
+# Do not declare [[routes]] here unless the zone is on this Cloudflare account.
+name = "getfortnitehacks"
 main = "workers/site.js"
 compatibility_date = "2026-09-12"
-
-# Cloudflare CI invokes `npx wrangler deploy` directly. Build Astro first so
-# the static-assets directory exists before Wrangler validates it.
-[build]
-command = "npm run build"
-
-[[routes]]
-pattern = "getfortnitehacks.io"
-custom_domain = true
-
-[[routes]]
-pattern = "www.getfortnitehacks.io"
-custom_domain = true
 
 [assets]
 directory = "./dist"
