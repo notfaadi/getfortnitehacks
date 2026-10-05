@@ -28,9 +28,9 @@ export function getOgImageForPath(path?: string): string {
   if (path === '/reviews') return OG_REVIEWS
   if (path === '/faq') return OG_FAQ
   if (path === '/support') return OG_SUPPORT
-  if (path === '/privacy') return OG_PRIVACY
+  if (path === '/privacy' || path === '/privacy-policy') return OG_PRIVACY
   if (path === '/terms') return OG_TERMS
-  if (path === '/refunds') return OG_REFUNDS
+  if (path === '/refunds' || path === '/refund-policy') return OG_REFUNDS
   if (path.startsWith('/forums/')) {
     const slug = path.slice('/forums/'.length).replace(/\/$/, '')
     return forumOgImage(slug)

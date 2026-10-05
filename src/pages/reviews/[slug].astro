@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { SeoContentPage } from '../../views/SeoContentPage'
+import { REVIEW_ARTICLES, getReviewArticle, reviewArticlePath } from '../../data/seo-review-articles'
+import { SITE_URL, type PageSeo } from '../../data/site'
+
+export function getStaticPaths() {
+  return REVIEW_ARTICLES.map((r) => ({ params: { slug: r.slug } }))
+}
+
+const { slug } = Astro.params
+const review = getReviewArticle(slug!)
+
+if (!review) {
+  return Astro.redirect('/404')
+}
+
+const path = reviewArticlePath(review.slug)
+const seo: PageSeo = {
+  title: review.title,
+  description: review.description,
+  path,
+  ogType: 'article',
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+}
+
+const jsonLdExtra = [
+  {
+    '@type': 'Review',
+    author: { '@type': 'Person', name: review.author },
+    reviewRating: { '@type': 'Rating', ratingValue: review.rating, bestRating: 5 },
+    itemReviewed: { '@type': 'Product', name: 'Fortnite Hacks' },
+  },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 2, name: 'Reviews', item: `${SITE_URL}/reviews` },
+      { '@type': 'ListItem', position: 3, name: review.h1, item: `${SITE_URL}${path}` },
+    ],
+  },
+]
+---
+
+<BaseLayout seo={seo} jsonLdExtra={jsonLdExtra}>
+  <SeoContentPage
+    client:visible
+    h1={review.h1}
+    intro={`${review.author} rated Fortnite Hacks ${review.rating}/5.`}
+    sections={[{ heading: 'Review', body: review.body }]}
+    related={[
+      { label: 'All reviews', href: '/reviews' },
+      { label: 'Features', href: '/features' },
+      { label: 'Pricing', href: '/pricing' },
+    ]}
+    currentPath={path}
+    eyebrow="Review"
+  />
+</BaseLayout>

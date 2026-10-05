@@ -55,7 +55,7 @@ export function SiteFooter({ currentPath }: SiteFooterProps) {
               </p>
               <ul className="mt-3 space-y-2 text-sm text-white/65">
                 {SITE_PAGE_LINKS.filter(
-                  (l) => !['/privacy', '/terms', '/refunds'].includes(l.to),
+                  (l) => !['/privacy-policy', '/terms', '/refund-policy'].includes(l.to),
                 ).map((l) => (
                   <li key={l.to}>
                     <a
@@ -125,7 +125,7 @@ export function SiteFooter({ currentPath }: SiteFooterProps) {
               </ul>
               <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-white/55">
                 <li>
-                  <a href="/privacy" className="hover:text-white">
+                  <a href="/privacy-policy" className="hover:text-white">
                     Privacy
                   </a>
                 </li>
@@ -135,7 +135,7 @@ export function SiteFooter({ currentPath }: SiteFooterProps) {
                   </a>
                 </li>
                 <li>
-                  <a href="/refunds" className="hover:text-white">
+                  <a href="/refund-policy" className="hover:text-white">
                     Refunds
                   </a>
                 </li>

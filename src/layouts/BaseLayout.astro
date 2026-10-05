@@ -57,16 +57,6 @@ const preloadOg =
     {preloadOg ? (
       <link rel="preload" as="image" href={imageUrl} type={imageType} fetchpriority="high" />
     ) : null}
-    {isHome ? (
-      <link
-        rel="preload"
-        as="image"
-        href="/media/fortnite-hero-full.webp"
-        type="image/webp"
-        fetchpriority="high"
-      />
-    ) : null}
-
     <title>{seo.title}</title>
     <meta name="description" content={seo.description} />
     <meta name="robots" content={robots} />

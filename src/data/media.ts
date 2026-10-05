@@ -9,6 +9,7 @@ export type SeoMediaItem = {
 }
 
 /** Fortnite product art + menu stills (self-hosted). */
+/** Product artwork (hero uses CSS mesh — not this file) */
 export const FORTNITE_HERO = '/media/fortnite-hero-full.webp'
 export const FORTNITE_SOLDIER = '/media/fortnite-hero-full.webp'
 export const FORTNITE_COVER = '/media/fortnite-cover.webp'

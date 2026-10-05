@@ -2,6 +2,7 @@ import { ChevronDown } from 'lucide-react'
 import { Navbar } from '../components/Navbar'
 import { SiteFooter } from '../components/SiteFooter'
 import { SITE_FAQS } from '../data/faqs'
+import { FAQ_ARTICLES, faqArticlePath } from '../data/seo-faq-articles'
 import { CheckoutLink } from '../components/CheckoutLink'
 import { SITE_NAME } from '../data/site'
 
@@ -19,12 +20,30 @@ export function FaqPage() {
               {SITE_NAME}
             </p>
             <h1 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-              Fortnite Hacks FAQ
+              Fortnite Hacks FAQ — Common Questions
             </h1>
             <p className="mt-4 text-base leading-relaxed text-white/60">
               Easy Anti-Cheat status, ESP, Aimbot, radar hack, servers, buying, loading, support and
               refunds — straight answers before you checkout.
             </p>
+          </div>
+        </section>
+
+        <section className="page-x pb-6">
+          <div className="mx-auto max-w-3xl">
+            <h2 className="text-lg font-semibold text-white">FAQ articles</h2>
+            <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+              {FAQ_ARTICLES.map((a) => (
+                <li key={a.slug}>
+                  <a
+                    href={faqArticlePath(a.slug)}
+                    className="block rounded-xl border border-z-soft/15 bg-white/[0.03] px-4 py-3 text-sm text-white/80 hover:border-z-soft/30 hover:text-white"
+                  >
+                    {a.h1}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 

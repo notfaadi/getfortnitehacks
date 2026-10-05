@@ -7,22 +7,21 @@
 /reviews/       /reviews       301
 /faq/           /faq           301
 /support/       /support       301
-/privacy/       /privacy       301
+/privacy/       /privacy-policy       301
+/privacy        /privacy-policy       301
 /terms/         /terms         301
-/refunds/       /refunds       301
-/refund/        /refunds       301
-/refund-policy  /refunds       301
-/refund-policy/ /refunds       301
-/privacy-policy /privacy       301
-/privacy-policy/ /privacy      301
+/refunds/       /refund-policy       301
+/refunds        /refund-policy       301
+/refund/        /refund-policy       301
+/refund-policy/ /refund-policy 301
+/privacy-policy/ /privacy-policy 301
 /terms-of-use   /terms         301
 /terms-of-use/  /terms         301
 /terms-of-service /terms       301
 /terms-of-service/ /terms      301
 
 # Primary SEO keyword variants → product or home
-/fortnite-hacks     /fortnite-cheats   301
-/fortnite-hacks/    /fortnite-cheats   301
+/fortnite-hacks/    /fortnite-hacks   301
 /fortnite-hack      /fortnite-cheats   301
 /fortnite-hack/     /fortnite-cheats   301
 /fortnite-cheat     /fortnite-cheats   301
@@ -66,7 +65,6 @@
 /guides         /forums        301
 /guides/        /forums        301
 /features-list  /forums/features-list  301
-/setup          /forums/complete-setup 301
 /fortnite-setup     /forums/complete-setup 301
 /fortnite-cheats-setup /forums/complete-setup 301
 
@@ -147,8 +145,6 @@
 /forums/instructions/    /forums/complete-setup#quick-checklist  301
 /forums/how-to-load      /forums/complete-setup#load-order       301
 /forums/how-to-load/     /forums/complete-setup#load-order       301
-/blog/:slug/    /forums/:slug  301
-/blog/:slug     /forums/:slug  301
 /forums/:slug/  /forums/:slug  301
 
 # Legacy / alternate sitemap URLs → single canonical sitemap

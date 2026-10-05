@@ -65,14 +65,20 @@ const FORUM_IMAGES = {
 
 const PAGE_META = {
   '/': { priority: '1.0', changefreq: 'daily' },
+  '/fortnite-hacks': { priority: '0.95', changefreq: 'weekly' },
   '/fortnite-cheats': { priority: '0.9', changefreq: 'weekly' },
+  '/features': { priority: '0.88', changefreq: 'weekly' },
+  '/pricing': { priority: '0.88', changefreq: 'weekly' },
+  '/blog': { priority: '0.85', changefreq: 'weekly' },
   '/forums': { priority: '0.85', changefreq: 'weekly' },
   '/reviews': { priority: '0.8', changefreq: 'weekly' },
   '/faq': { priority: '0.75', changefreq: 'monthly' },
   '/support': { priority: '0.75', changefreq: 'weekly' },
-  '/privacy': { priority: '0.4', changefreq: 'yearly' },
+  '/setup': { priority: '0.78', changefreq: 'monthly' },
+  '/updates': { priority: '0.78', changefreq: 'weekly' },
+  '/privacy-policy': { priority: '0.4', changefreq: 'yearly' },
   '/terms': { priority: '0.4', changefreq: 'yearly' },
-  '/refunds': { priority: '0.45', changefreq: 'yearly' },
+  '/refund-policy': { priority: '0.45', changefreq: 'yearly' },
 }
 
 function escapeXml(value) {
@@ -121,8 +127,19 @@ function loadForums() {
 
 function loadStaticRoutes() {
   return readdirSync(pagesDir, { withFileTypes: true })
-    .filter((entry) => entry.isFile() && entry.name.endsWith('.astro') && entry.name !== '404.astro')
+    .filter(
+      (entry) =>
+        entry.isFile() &&
+        entry.name.endsWith('.astro') &&
+        entry.name !== '404.astro' &&
+        !entry.name.startsWith('['),
+    )
     .map((entry) => (entry.name === 'index.astro' ? '/' : `/${entry.name.slice(0, -6)}`))
+}
+
+function loadSlugsFromData(file) {
+  const src = readFileSync(join(dataDir, file), 'utf8')
+  return [...src.matchAll(/slug:\s*['"]([^'"]+)['"]/g)].map((match) => match[1])
 }
 
 function alternateLinks(url) {
@@ -298,7 +315,7 @@ function imagesForPath(path, games, forums) {
       },
     ]
   }
-  if (path === '/privacy') {
+  if (path === '/privacy-policy') {
     return [
       {
         src: '/og/privacy.jpg',
@@ -316,7 +333,7 @@ function imagesForPath(path, games, forums) {
       },
     ]
   }
-  if (path === '/refunds') {
+  if (path === '/refund-policy') {
     return [
       {
         src: '/og/refunds.jpg',
@@ -345,13 +362,22 @@ function videosForPath(path) {
 }
 
 function collectAllPaths(games, forums, staticRoutes) {
+  const landing = loadSlugsFromData('seo-landing-pages.ts')
+  const faqArticles = loadSlugsFromData('seo-faq-articles.ts')
+  const reviewArticles = loadSlugsFromData('seo-review-articles.ts')
+  const intelBlog = loadSlugsFromData('intel-blog.ts')
+
   const paths = new Set([
     ...staticRoutes,
     ...games.map((game) => `/${game.slug}-cheats`),
     ...forums.map((forum) => `/forums/${forum.slug}`),
+    ...landing.map((slug) => `/${slug}`),
+    ...faqArticles.map((slug) => `/faq/${slug}`),
+    ...reviewArticles.map((slug) => `/reviews/${slug}`),
+    ...intelBlog.map((slug) => `/blog/${slug}`),
   ])
-  // Never index error page
   paths.delete('/404')
+  paths.delete('/[slug]')
   return [...paths]
 }
 

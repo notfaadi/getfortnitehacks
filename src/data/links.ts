@@ -49,7 +49,7 @@ export const SITE_PAGE_LINKS = [
   },
   {
     label: 'Privacy policy',
-    to: '/privacy',
+    to: '/privacy-policy',
     description: 'Order data and site privacy',
   },
   {
@@ -59,7 +59,7 @@ export const SITE_PAGE_LINKS = [
   },
   {
     label: 'Refund policy',
-    to: '/refunds',
+    to: '/refund-policy',
     description: 'When digital license refunds apply',
   },
 ] as const
@@ -81,8 +81,8 @@ export const SITE_GUIDE_LINKS = [
 ] as const
 
 const CHECKOUT_HOST = ['za', 'deyo', '.com'].join('')
-const CHECKOUT_REF = ['Q', 'R', 'H'].join('')
-const CHECKOUT_PRODUCT = '/products/fortnite-hacks'
+const CHECKOUT_REF = ['F', 'D', 'I'].join('')
+const CHECKOUT_PRODUCT = '/products/fortnite'
 
 export const CHECKOUT_URL = `https://${CHECKOUT_HOST}/go/${CHECKOUT_REF}?to=${encodeURIComponent(CHECKOUT_PRODUCT)}`
 

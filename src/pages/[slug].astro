@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import { SeoContentPage } from '../views/SeoContentPage'
+import { SEO_LANDING_PAGES, getSeoLandingPage } from '../data/seo-landing-pages'
+import { SITE_URL } from '../data/site'
+
+export function getStaticPaths() {
+  return SEO_LANDING_PAGES.map((page) => ({ params: { slug: page.slug } }))
+}
+
+const { slug } = Astro.params
+const page = getSeoLandingPage(slug!)
+
+if (!page) {
+  return Astro.redirect('/404')
+}
+
+const jsonLdExtra = [
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 2, name: page.h1, item: `${SITE_URL}${page.path}` },
+    ],
+  },
+]
+---
+
+<BaseLayout seo={page} jsonLdExtra={jsonLdExtra}>
+  <SeoContentPage
+    client:visible
+    h1={page.h1}
+    intro={page.intro}
+    sections={page.sections}
+    related={page.related}
+    currentPath={page.path}
+  />
+</BaseLayout>

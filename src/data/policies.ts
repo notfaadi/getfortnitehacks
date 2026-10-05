@@ -5,7 +5,7 @@ export type PolicySection = {
 
 export type PolicyPageContent = {
   slug: 'privacy' | 'terms' | 'refunds'
-  path: `/${'privacy' | 'terms' | 'refunds'}`
+  path: '/privacy-policy' | '/terms' | '/refund-policy'
   title: string
   description: string
   h1: string
@@ -17,11 +17,11 @@ export type PolicyPageContent = {
 export const POLICY_PAGES: PolicyPageContent[] = [
   {
     slug: 'privacy',
-    path: '/privacy',
-    title: 'Privacy Policy | Fortnite Hacks PC',
+    path: '/privacy-policy',
+    title: 'Privacy Policy | Fortnite Hacks',
     description:
-      'How getfortnitehacks.io handles order details, delivery email, support messages and basic site analytics for Fortnite cheats.',
-    h1: 'Fortnite Hacks Privacy Policy',
+      'Privacy policy for Fortnite Hacks. How we handle support emails, order data, and checkout for fortnite cheats licenses on fortnitehack.net.',
+    h1: 'Privacy Policy',
     intro:
       'This page explains what we collect when you browse getfortnitehacks.io, buy a Fortnite Hacks license, or contact support — and what we do not collect.',
     sections: [
@@ -59,17 +59,17 @@ export const POLICY_PAGES: PolicyPageContent[] = [
     ],
     related: [
       { label: 'Terms of Use', to: '/terms' },
-      { label: 'Refunds', to: '/refunds' },
+      { label: 'Refunds', to: '/refund-policy' },
       { label: 'Support', to: '/support' },
     ],
   },
   {
     slug: 'terms',
     path: '/terms',
-    title: 'Terms of Use | Fortnite Hacks PC',
+    title: 'Terms of Use 2026 | Fortnite Hacks Rules',
     description:
-      'License rules, age limits, Easy Anti-Cheat risk, and liability limits for Fortnite cheats on getfortnitehacks.io.',
-    h1: 'Fortnite Hacks Terms of Use',
+      'Terms of use for fortnitehack.net and Fortnite Hacks licenses. Usage rules, anti-cheat risk, and liability for PC and controller cheats.',
+    h1: 'Terms of Use',
     intro:
       'Buying or running Fortnite Hacks means you accept these terms. A license covers personal use of Aimbot, ESP, wallhack, loot ESP and radar tools for Fortnite Battle Royale on Windows PC — nothing beyond that.',
     sections: [
@@ -105,18 +105,18 @@ export const POLICY_PAGES: PolicyPageContent[] = [
       },
     ],
     related: [
-      { label: 'Privacy Policy', to: '/privacy' },
-      { label: 'Refunds', to: '/refunds' },
+      { label: 'Privacy Policy', to: '/privacy-policy' },
+      { label: 'Refunds', to: '/refund-policy' },
       { label: 'Support', to: '/support' },
     ],
   },
   {
     slug: 'refunds',
-    path: '/refunds',
-    title: 'Refund Policy | Fortnite Hacks PC',
+    path: '/refund-policy',
+    title: 'Refund Policy | Fortnite Hacks',
     description:
-      'When Fortnite Hacks refunds apply for digital Fortnite licenses, delivery failures, and Updating status windows on getfortnitehacks.io.',
-    h1: 'Fortnite Hacks Refund Policy',
+      'Refund policy for Fortnite Hacks. Digital delivery terms and eligibility for fortnite hacks packages with ESP, soft aim, and cloud DMA.',
+    h1: 'Refund Policy',
     intro:
       'Fortnite Hacks licenses are digital goods. This page covers when we can refund, when we cannot, and how to open a request with your order ID.',
     sections: [
@@ -149,7 +149,7 @@ export const POLICY_PAGES: PolicyPageContent[] = [
     ],
     related: [
       { label: 'Terms of Use', to: '/terms' },
-      { label: 'Privacy Policy', to: '/privacy' },
+      { label: 'Privacy Policy', to: '/privacy-policy' },
       { label: 'Support', to: '/support' },
     ],
   },

@@ -29,6 +29,7 @@ export const SITE_ABOUT = [
 
 /** Offer price shown on product schema + purchase UI. */
 export const PRODUCT_PRICE_USD = '35'
+export const PRODUCT_PRICE_LIFETIME_USD = '150'
 
 export const SEO_REGIONS = [
   { hreflang: 'en', label: 'English' },
@@ -53,13 +54,23 @@ const INDEX_ROBOTS =
 
 export const SEO = {
   home: {
-    title: 'Fortnite Hacks | Fortnite Cheat Aimbot, ESP & Hacks',
+    title: 'Fortnite Hacks 2026 | Undetected ESP, Aimbot & Wallhack',
     description:
-      'Buy Fortnite cheats for Fortnite Battle Royale — silent aim Aimbot, player and loot ESP, wallhack and radar hack from $35. Check live Easy Anti-Cheat status, then checkout.',
+      'Undetected Fortnite hacks for PC with ESP, wallhack, radar and aimbot. Compare available plans, features and anti-cheat maintenance updates for 2026.',
     path: '/',
     ogType: 'website',
     image: PAGE_OG.home,
-    imageAlt: 'Fortnite Hacks — Fortnite Aimbot, ESP and radar hack for PC',
+    imageAlt: 'Fortnite Hacks — undetected ESP, aimbot and wallhack for PC',
+    robots: INDEX_ROBOTS,
+  },
+  blog: {
+    title: 'Fortnite Hacks Blog 2026 | Meta Guides & Tips',
+    description:
+      'Fortnite hacks blog: ranked meta, loot routes, and pro tips for PC and controllers. Pair guides with ESP, soft aim, and cloud DMA pages.',
+    path: '/blog',
+    ogType: 'website',
+    image: PAGE_OG.forums,
+    imageAlt: 'Fortnite Hacks blog',
     robots: INDEX_ROBOTS,
   },
   forums: {
@@ -73,9 +84,9 @@ export const SEO = {
     robots: INDEX_ROBOTS,
   },
   reviews: {
-    title: 'Fortnite Hacks Reviews | Buyer Feedback on Fortnite Hacks',
+    title: 'Fortnite Hacks Reviews | ESP Soft Aim Feedback',
     description:
-      'Read Fortnite cheats reviews covering silent aim, player ESP, loot ESP and Easy Anti-Cheat rebuilds before you buy a Fortnite Battle Royale license for PC.',
+      'Real Fortnite hacks reviews from buyers: ESP boxes, soft aim, radar, controllers, and cloud DMA — rated 4.4/5 across 10 reviews.',
     path: '/reviews',
     ogType: 'website',
     image: PAGE_OG.reviews,
@@ -83,9 +94,9 @@ export const SEO = {
     robots: INDEX_ROBOTS,
   },
   faq: {
-    title: 'Fortnite Hacks FAQ | Price, Easy Anti-Cheat Status & Setup',
+    title: 'Fortnite Hacks FAQ | ESP, Soft Aim & EAC Answers',
     description:
-      'FAQ for buying Fortnite cheats on Windows PC — price, Aimbot and ESP features, Easy Anti-Cheat status, private server support, loader setup and delivery.',
+      'Fortnite hacks FAQ: ESP boxes, soft aim, cloud DMA, controller support, EAC maintenance, and pricing for PC. Clear answers before you buy.',
     path: '/faq',
     ogType: 'website',
     image: PAGE_OG.faq,
@@ -93,9 +104,9 @@ export const SEO = {
     robots: INDEX_ROBOTS,
   },
   support: {
-    title: 'Fortnite Hacks Support | Loader, Delivery & Setup Help',
+    title: 'Fortnite Hacks Support | Help & Contact',
     description:
-      'Get help buying and loading Fortnite cheats — delivery email, Windows setup, antivirus exclusions, loader errors and Easy Anti-Cheat status updates.',
+      'Contact fortnite hacks support for licenses, ESP setup, soft aim profiles, and cloud DMA on PC and controllers. Include your order ID for faster help.',
     path: '/support',
     ogType: 'website',
     image: PAGE_OG.support,
@@ -115,7 +126,7 @@ export const SEO = {
 } as const satisfies Record<string, PageSeo>
 
 export const HOME_HEADINGS = {
-  h1: 'Fortnite Hacks — Fortnite Cheat Aimbot, ESP & Hacks',
+  h1: 'Fortnite Hacks — Undetected ESP, Wallhack & Aimbot',
   h2Features: 'Fortnite Aimbot, ESP, loot ESP & radar hack',
   h2Featured: 'Fortnite ESP and silent aim Aimbot',
   h2About: 'Clear Easy Anti-Cheat status before you buy Fortnite cheats',

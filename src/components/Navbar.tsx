@@ -6,8 +6,9 @@ import { SITE_NAME } from '../data/site'
 
 /** Lean nav — Reviews stay in footer. */
 const NAV_LINKS = [
-  { label: 'Forums', to: '/forums' },
-  { label: 'Product', to: '/fortnite-cheats' },
+  { label: 'Features', to: '/features' },
+  { label: 'Pricing', to: '/pricing' },
+  { label: 'Blog', to: '/blog' },
   { label: 'Reviews', to: '/reviews' },
   { label: 'FAQ', to: '/faq' },
   { label: 'Support', to: '/support' },

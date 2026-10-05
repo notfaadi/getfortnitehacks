@@ -2,6 +2,7 @@ import { Star } from 'lucide-react'
 import { Navbar } from '../components/Navbar'
 import { SiteFooter } from '../components/SiteFooter'
 import { getReviewsAggregate, REVIEWS } from '../data/reviews'
+import { REVIEW_ARTICLES, reviewArticlePath } from '../data/seo-review-articles'
 import { CheckoutLink } from '../components/CheckoutLink'
 import { SITE_NAME } from '../data/site'
 
@@ -44,6 +45,24 @@ export function ReviewsPage() {
             <p className="mt-4 text-sm text-white/45" aria-label="Aggregate rating">
               Average {aggregate.ratingValue} / 5 · {aggregate.reviewCount} reviews
             </p>
+          </div>
+        </section>
+
+        <section className="page-x pb-4">
+          <div className="mx-auto max-w-3xl">
+            <h2 className="text-lg font-semibold text-white">Featured buyer stories</h2>
+            <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+              {REVIEW_ARTICLES.map((r) => (
+                <li key={r.slug}>
+                  <a
+                    href={reviewArticlePath(r.slug)}
+                    className="block rounded-xl border border-z-soft/15 bg-white/[0.03] px-4 py-3 text-sm text-white/80 hover:border-z-soft/30"
+                  >
+                    {r.h1} · {r.rating}/5
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 
