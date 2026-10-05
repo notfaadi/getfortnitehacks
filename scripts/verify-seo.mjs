@@ -81,10 +81,13 @@ const forums = readFileSync(join(dist, 'forums', 'index.html'), 'utf8')
 
 if (
   !home.includes(
-    '<title>Fortnite Hacks 2026 | Undetected ESP, Aimbot &amp; Wallhack</title>',
+    '<title>Fortnite Hacks — Undetected ESP, Wallhack &amp; Aimbot | 2026</title>',
   )
 ) {
   fail('Homepage does not own the exact transactional title')
+}
+if (!home.includes('Fortnite Hacks — Undetected ESP, Wallhack')) {
+  fail('Homepage H1 must align with the meta title for on-page SEO')
 }
 if (product.includes('<title>Buy Fortnite Hacks')) fail('Product details page competes with homepage')
 if ((faq.match(/"@type":"FAQPage"/g) || []).length !== 1) fail('/faq must own one FAQPage')
@@ -332,11 +335,14 @@ if (!redirects.includes('/fortnite-hacks')) {
 }
 
 const worker = readFileSync(join(root, 'workers', 'site.js'), 'utf8')
-if (!worker.includes("startsWith('www.')") && !worker.includes('startsWith("www.")')) {
-  fail('workers/site.js must detect www. hostnames for apex redirect')
+if (!worker.includes('getfortnitehacks.io')) {
+  fail('workers/site.js must define getfortnitehacks.io as the canonical host')
 }
 if (!worker.includes('301')) {
-  fail('workers/site.js must 301 www → apex for a single canonical host')
+  fail('workers/site.js must 301 alternate hosts to the canonical apex')
+}
+if (/rel=.canonical./i.test(worker) && worker.includes('Link')) {
+  fail('workers/site.js must not emit HTTP Link canonical headers (HTML owns canonical)')
 }
 
 const middleware = readFileSync(join(root, 'functions', '_middleware.js'), 'utf8')

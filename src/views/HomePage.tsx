@@ -74,11 +74,12 @@ export function HomePage() {
 
           <main className="hero-main-corner relative flex flex-1 flex-col justify-center pb-12 pt-6 sm:pb-16">
             <div className="relative z-30 w-full max-w-lg text-left">
-              <h1 className="text-4xl font-bold uppercase tracking-tight text-white sm:text-5xl lg:text-6xl">
-                {SITE_NAME}
+              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-[2.75rem] lg:leading-tight">
+                {HOME_HEADINGS.h1}
               </h1>
               <p className="mt-4 max-w-md text-base leading-relaxed text-white/90 sm:text-lg">
-                Aimbot, wallhack ESP, and 2D radar for Fortnite — Easy Anti-Cheat updates included.
+                {HOME_HEADINGS.h2Features} for Fortnite Battle Royale — Easy Anti-Cheat updates
+                included.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">

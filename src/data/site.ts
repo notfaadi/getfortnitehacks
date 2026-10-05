@@ -54,9 +54,9 @@ const INDEX_ROBOTS =
 
 export const SEO = {
   home: {
-    title: 'Fortnite Hacks 2026 | Undetected ESP, Aimbot & Wallhack',
+    title: 'Fortnite Hacks — Undetected ESP, Wallhack & Aimbot | 2026',
     description:
-      'Undetected Fortnite hacks for PC with ESP, wallhack, radar and aimbot. Compare available plans, features and anti-cheat maintenance updates for 2026.',
+      'Fortnite hacks for PC: aimbot, wallhack ESP, loot ESP, and 2D radar with Easy Anti-Cheat maintenance. Compare plans, features, and 2026 patch updates before you buy.',
     path: '/',
     ogType: 'website',
     image: PAGE_OG.home,
