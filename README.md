@@ -25,4 +25,4 @@ Delete old `.io` bookmarks and pick the **`.org`** suggestion in Chrome. If you 
 
 The `*.workers.dev` URLs are disabled in `wrangler.toml` (`workers_dev = false`); open the custom domain or the apex URL above.
 
-Workers → **getfortnitehacks** → **Domains**: keep **getfortnitehacks.org** (and optionally **www** for the 301 to apex). Turn off any extra Worker URLs in **Settings** if the dashboard still shows a workers.dev toggle.
+Workers → **getfortnitehacks** → **Domains**: **getfortnitehacks.org** and **www.getfortnitehacks.org** (www must 301 to apex). If Seobility still flags www/non-www, add the **www CNAME** — see [docs/CLOUDFLARE-WWW.md](docs/CLOUDFLARE-WWW.md). After deploy: `npm run verify:live`.

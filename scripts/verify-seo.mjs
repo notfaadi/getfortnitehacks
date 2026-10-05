@@ -93,6 +93,17 @@ if (
 if (!home.includes('Fortnite Hacks — Undetected ESP, Wallhack')) {
   fail('Homepage H1 must align with the meta title for on-page SEO')
 }
+const homeDescRaw = home.match(/<meta name="description" content="([^"]+)"/)?.[1] ?? ''
+const homeDesc = homeDescRaw
+  .replace(/&amp;/g, '&')
+  .replace(/&#38;/g, '&')
+  .replace(/&quot;/g, '"')
+if (homeDesc.length < 120 || homeDesc.length > 158) {
+  fail(`Homepage meta description length ${homeDesc.length} (want 120–158 for Seobility)`)
+}
+if (!/^Fortnite hacks/i.test(homeDesc)) {
+  fail('Homepage meta description must lead with "Fortnite hacks"')
+}
 if (product.includes('<title>Buy Fortnite Hacks')) fail('Product details page competes with homepage')
 if ((faq.match(/"@type":"FAQPage"/g) || []).length !== 1) fail('/faq must own one FAQPage')
 for (const [name, html] of [

@@ -1,5 +1,6 @@
 # Cloudflare Worker + static assets (CI: build then `npx wrangler deploy`).
 # Public site URL: https://getfortnitehacks.org only (not workers.dev, not .io).
+# Seobility www→apex: add www CNAME + custom domain — docs/CLOUDFLARE-WWW.md
 name = "getfortnitehacks"
 main = "workers/site.js"
 compatibility_date = "2026-09-12"
