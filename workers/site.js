@@ -4,7 +4,7 @@
  * hostname — or Cloudflare returns HTTP 522 on custom domains.
  *
  * Single canonical host: https://getfortnitehacks.org (apex, no www).
- * All other hostnames (.io, www.*, http) → 301 to apex .org.
+ * All other hostnames (www, workers.dev, http, etc.) → 301 to apex .org.
  * Canonical/hreflang live only in HTML — do not duplicate via Link headers.
  */
 const CANONICAL_HOST = 'getfortnitehacks.org'
