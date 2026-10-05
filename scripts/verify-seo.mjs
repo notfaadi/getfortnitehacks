@@ -342,6 +342,9 @@ const worker = readFileSync(join(root, 'workers', 'site.js'), 'utf8')
 if (!worker.includes('getfortnitehacks.org')) {
   fail('workers/site.js must define getfortnitehacks.org as the canonical host')
 }
+if (!worker.includes('host === CANONICAL_HOST')) {
+  fail('workers/site.js must 301 www and alternate hosts (exact apex hostname only)')
+}
 if (!worker.includes('301')) {
   fail('workers/site.js must 301 alternate hosts to the canonical apex')
 }
@@ -350,8 +353,8 @@ if (/rel=.canonical./i.test(worker) && worker.includes('Link')) {
 }
 
 const middleware = readFileSync(join(root, 'functions', '_middleware.js'), 'utf8')
-if (!middleware.includes("startsWith('www.')") && !middleware.includes('startsWith("www.")')) {
-  fail('functions/_middleware.js must 301 www → apex')
+if (!middleware.includes('host === CANONICAL_HOST')) {
+  fail('functions/_middleware.js must 301 www and alternate hosts (exact apex hostname only)')
 }
 
 if (site.includes('://www.')) {

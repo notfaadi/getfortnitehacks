@@ -56,7 +56,7 @@ export const SEO = {
   home: {
     title: 'Fortnite Hacks — Undetected ESP, Wallhack & Aimbot | 2026',
     description:
-      'Fortnite hacks for PC: aimbot, wallhack ESP, loot ESP, and 2D radar with Easy Anti-Cheat maintenance. Compare plans, features, and 2026 patch updates before you buy.',
+      'Buy undetected Fortnite hacks for Windows PC — silent aimbot, ESP wallhack, loot markers & 2D radar. Check live Easy Anti-Cheat status, compare 2026 plans from $35, instant digital delivery.',
     path: '/',
     ogType: 'website',
     image: PAGE_OG.home,

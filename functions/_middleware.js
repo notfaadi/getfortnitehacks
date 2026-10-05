@@ -6,12 +6,9 @@ const CANONICAL_HOST = 'getfortnitehacks.org'
 
 function toCanonicalSiteUrl(url) {
   const host = url.hostname.toLowerCase()
-  const bare = host.startsWith('www.') ? host.slice(4) : host
   let path = url.pathname
   if (path !== '/' && path.endsWith('/')) path = path.replace(/\/$/, '')
-  const needsHostFix = bare !== CANONICAL_HOST
-  const needsHttps = url.protocol !== 'https:'
-  if (!needsHostFix && !needsHttps) return null
+  if (host === CANONICAL_HOST && url.protocol === 'https:') return null
 
   const next = new URL(url.toString())
   next.protocol = 'https:'

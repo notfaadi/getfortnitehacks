@@ -43,14 +43,11 @@ function normalizePathname(pathname) {
   return pathname.replace(/\/$/, '') || '/'
 }
 
-/** 301 to https://getfortnitehacks.org{path} unless already on canonical host + HTTPS. */
+/** 301 to https://getfortnitehacks.org{path} unless hostname is exactly apex + HTTPS. */
 function toCanonicalSiteUrl(url) {
   const host = url.hostname.toLowerCase()
-  const bare = host.startsWith('www.') ? host.slice(4) : host
   const path = normalizePathname(url.pathname)
-  const needsHostFix = bare !== CANONICAL_HOST
-  const needsHttps = url.protocol !== 'https:'
-  if (!needsHostFix && !needsHttps) return null
+  if (host === CANONICAL_HOST && url.protocol === 'https:') return null
 
   const next = new URL(url.toString())
   next.protocol = 'https:'
